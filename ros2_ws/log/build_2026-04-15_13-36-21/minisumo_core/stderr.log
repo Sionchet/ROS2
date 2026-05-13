@@ -1,0 +1,5 @@
+  File "/home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/odometria.py", line 59
+    a)
+     ^
+SyntaxError: unmatched ')'
+

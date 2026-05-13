@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robiot/robiot.egg-info
+writing ../../build/robiot/robiot.egg-info/PKG-INFO
+writing dependency_links to ../../build/robiot/robiot.egg-info/dependency_links.txt
+writing entry points to ../../build/robiot/robiot.egg-info/entry_points.txt
+writing requirements to ../../build/robiot/robiot.egg-info/requires.txt
+writing top-level names to ../../build/robiot/robiot.egg-info/top_level.txt
+writing manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+reading manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+writing manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dae/ros2_ws/build/robiot/build
+creating /home/dae/ros2_ws/build/robiot/build/lib
+creating /home/dae/ros2_ws/build/robiot/build/lib/robiot
+copying robiot/__init__.py -> /home/dae/ros2_ws/build/robiot/build/lib/robiot
+running install
+running install_lib
+creating /home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot
+copying /home/dae/ros2_ws/build/robiot/build/lib/robiot/__init__.py -> /home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot
+byte-compiling /home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/dae/ros2_ws/install/robiot/share/ament_index
+creating /home/dae/ros2_ws/install/robiot/share/ament_index/resource_index
+creating /home/dae/ros2_ws/install/robiot/share/ament_index/resource_index/packages
+copying resource/robiot -> /home/dae/ros2_ws/install/robiot/share/ament_index/resource_index/packages
+copying package.xml -> /home/dae/ros2_ws/install/robiot/share/robiot
+creating /home/dae/ros2_ws/install/robiot/share/robiot/launch
+copying launch/visual.launch.py -> /home/dae/ros2_ws/install/robiot/share/robiot/launch
+creating /home/dae/ros2_ws/install/robiot/share/robiot/description
+creating /home/dae/ros2_ws/install/robiot/share/robiot/config
+running install_egg_info
+Copying ../../build/robiot/robiot.egg-info to /home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/dae/ros2_ws/build/robiot/install.log'
