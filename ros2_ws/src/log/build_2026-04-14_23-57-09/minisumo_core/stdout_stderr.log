@@ -1,0 +1,30 @@
+running egg_info
+writing ../build/minisumo_core/minisumo_core.egg-info/PKG-INFO
+writing dependency_links to ../build/minisumo_core/minisumo_core.egg-info/dependency_links.txt
+writing entry points to ../build/minisumo_core/minisumo_core.egg-info/entry_points.txt
+writing requirements to ../build/minisumo_core/minisumo_core.egg-info/requires.txt
+writing top-level names to ../build/minisumo_core/minisumo_core.egg-info/top_level.txt
+reading manifest file '../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'
+writing manifest file '../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'
+running build
+running build_py
+copying minisumo_core/logger_csv.py -> /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core
+copying minisumo_core/teleop_rutinas.py -> /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core
+copying minisumo_core/odometria.py -> /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core
+running install
+running install_lib
+copying /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core/logger_csv.py -> /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core
+copying /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core/teleop_rutinas.py -> /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core
+copying /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core/odometria.py -> /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core
+byte-compiling /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/logger_csv.py to logger_csv.cpython-38.pyc
+byte-compiling /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/teleop_rutinas.py to teleop_rutinas.cpython-38.pyc
+byte-compiling /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/odometria.py to odometria.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/minisumo_core/minisumo_core.egg-info to /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core-0.0.0-py3.8.egg-info
+running install_scripts
+Installing logger_csv script to /home/dae/ros2_ws/src/install/minisumo_core/lib/minisumo_core
+Installing odometria script to /home/dae/ros2_ws/src/install/minisumo_core/lib/minisumo_core
+Installing teleop script to /home/dae/ros2_ws/src/install/minisumo_core/lib/minisumo_core
+writing list of installed files to '/home/dae/ros2_ws/src/build/minisumo_core/install.log'

@@ -1,0 +1,26 @@
+[8.515s] Invoking command in '/home/dae/ros2_ws/src/minisumo_core': PYTHONPATH=/home/dae/ros2_ws/src/build/minisumo_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/minisumo_core build --build-base /home/dae/ros2_ws/src/build/minisumo_core/build install --record /home/dae/ros2_ws/src/build/minisumo_core/install.log --install-scripts $base/lib/minisumo_core --single-version-externally-managed install_data
+[11.430s] running egg_info
+[11.436s] writing ../build/minisumo_core/minisumo_core.egg-info/PKG-INFO
+[11.438s] writing dependency_links to ../build/minisumo_core/minisumo_core.egg-info/dependency_links.txt
+[11.442s] writing entry points to ../build/minisumo_core/minisumo_core.egg-info/entry_points.txt
+[11.448s] writing requirements to ../build/minisumo_core/minisumo_core.egg-info/requires.txt
+[11.450s] writing top-level names to ../build/minisumo_core/minisumo_core.egg-info/top_level.txt
+[11.925s] reading manifest file '../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'
+[11.947s] writing manifest file '../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'
+[11.949s] running build
+[11.952s] running build_py
+[11.954s] copying minisumo_core/gengar_odom.py -> /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core
+[11.964s] running install
+[11.976s] running install_lib
+[11.992s] copying /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core/gengar_odom.py -> /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core
+[12.001s] byte-compiling /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/gengar_odom.py to gengar_odom.cpython-38.pyc
+[12.022s] running install_data
+[12.026s] running install_egg_info
+[12.042s] removing '/home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core-0.0.0-py3.8.egg-info' (and everything under it)
+[12.046s] Copying ../build/minisumo_core/minisumo_core.egg-info to /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core-0.0.0-py3.8.egg-info
+[12.059s] running install_scripts
+[12.266s] Installing logger_csv script to /home/dae/ros2_ws/src/install/minisumo_core/lib/minisumo_core
+[12.271s] Installing odometria script to /home/dae/ros2_ws/src/install/minisumo_core/lib/minisumo_core
+[12.276s] Installing teleop script to /home/dae/ros2_ws/src/install/minisumo_core/lib/minisumo_core
+[12.283s] writing list of installed files to '/home/dae/ros2_ws/src/build/minisumo_core/install.log'
+[12.475s] Invoked command in '/home/dae/ros2_ws/src/minisumo_core' returned '0': PYTHONPATH=/home/dae/ros2_ws/src/build/minisumo_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/minisumo_core build --build-base /home/dae/ros2_ws/src/build/minisumo_core/build install --record /home/dae/ros2_ws/src/build/minisumo_core/install.log --install-scripts $base/lib/minisumo_core --single-version-externally-managed install_data

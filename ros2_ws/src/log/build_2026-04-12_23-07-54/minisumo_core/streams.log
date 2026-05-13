@@ -1,0 +1,40 @@
+[6.038s] Invoking command in '/home/dae/ros2_ws/src/minisumo_core': PYTHONPATH=/home/dae/ros2_ws/src/build/minisumo_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/minisumo_core build --build-base /home/dae/ros2_ws/src/build/minisumo_core/build install --record /home/dae/ros2_ws/src/build/minisumo_core/install.log --install-scripts $base/lib/minisumo_core --single-version-externally-managed install_data
+[7.913s] running egg_info
+[7.919s] creating ../build/minisumo_core/minisumo_core.egg-info
+[7.920s] writing ../build/minisumo_core/minisumo_core.egg-info/PKG-INFO
+[7.923s] writing dependency_links to ../build/minisumo_core/minisumo_core.egg-info/dependency_links.txt
+[7.926s] writing entry points to ../build/minisumo_core/minisumo_core.egg-info/entry_points.txt
+[7.927s] writing requirements to ../build/minisumo_core/minisumo_core.egg-info/requires.txt
+[7.929s] writing top-level names to ../build/minisumo_core/minisumo_core.egg-info/top_level.txt
+[7.970s] writing manifest file '../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'
+[8.258s] reading manifest file '../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'
+[8.265s] writing manifest file '../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'
+[8.266s] running build
+[8.268s] running build_py
+[8.269s] creating /home/dae/ros2_ws/src/build/minisumo_core/build
+[8.271s] creating /home/dae/ros2_ws/src/build/minisumo_core/build/lib
+[8.272s] creating /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core
+[8.274s] copying minisumo_core/__init__.py -> /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core
+[8.275s] copying minisumo_core/imu_logger.py -> /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core
+[8.277s] copying minisumo_core/puente_serial.py -> /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core
+[8.278s] running install
+[8.281s] running install_lib
+[8.288s] creating /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core
+[8.290s] copying /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core/__init__.py -> /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core
+[8.291s] copying /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core/imu_logger.py -> /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core
+[8.293s] copying /home/dae/ros2_ws/src/build/minisumo_core/build/lib/minisumo_core/puente_serial.py -> /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core
+[8.296s] byte-compiling /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/__init__.py to __init__.cpython-38.pyc
+[8.305s] byte-compiling /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/imu_logger.py to imu_logger.cpython-38.pyc
+[8.309s] byte-compiling /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/puente_serial.py to puente_serial.cpython-38.pyc
+[8.311s] running install_data
+[8.314s] creating /home/dae/ros2_ws/src/install/minisumo_core/share/ament_index
+[8.315s] creating /home/dae/ros2_ws/src/install/minisumo_core/share/ament_index/resource_index
+[8.317s] creating /home/dae/ros2_ws/src/install/minisumo_core/share/ament_index/resource_index/packages
+[8.318s] copying resource/minisumo_core -> /home/dae/ros2_ws/src/install/minisumo_core/share/ament_index/resource_index/packages
+[8.320s] copying package.xml -> /home/dae/ros2_ws/src/install/minisumo_core/share/minisumo_core
+[8.321s] running install_egg_info
+[8.329s] Copying ../build/minisumo_core/minisumo_core.egg-info to /home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages/minisumo_core-0.0.0-py3.8.egg-info
+[8.337s] running install_scripts
+[8.451s] Installing imu_logger script to /home/dae/ros2_ws/src/install/minisumo_core/lib/minisumo_core
+[8.455s] writing list of installed files to '/home/dae/ros2_ws/src/build/minisumo_core/install.log'
+[8.571s] Invoked command in '/home/dae/ros2_ws/src/minisumo_core' returned '0': PYTHONPATH=/home/dae/ros2_ws/src/build/minisumo_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/src/install/minisumo_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/minisumo_core build --build-base /home/dae/ros2_ws/src/build/minisumo_core/build install --record /home/dae/ros2_ws/src/build/minisumo_core/install.log --install-scripts $base/lib/minisumo_core --single-version-externally-managed install_data
