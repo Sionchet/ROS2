@@ -1,0 +1,6 @@
+[console_scripts]
+guante_node = minisumo_core.guante_control_node:main
+logger_csv = minisumo_core.logger_csv:main
+odometria = minisumo_core.odometria:main
+teleop = minisumo_core.teleop_rutinas:main
+
