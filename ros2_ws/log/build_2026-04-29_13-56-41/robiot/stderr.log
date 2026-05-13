@@ -1,0 +1,19 @@
+'import warnings' failed; traceback:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/warnings.py", line 538, in <module>
+    _processoptions(sys.warnoptions)
+  File "/usr/lib/python3.8/warnings.py", line 208, in _processoptions
+    _setoption(arg)
+  File "/usr/lib/python3.8/warnings.py", line 224, in _setoption
+    import re
+  File "/usr/lib/python3.8/re.py", line 127, in <module>
+    import functools
+  File "/usr/lib/python3.8/functools.py", line 18, in <module>
+    from collections import namedtuple
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 640, in _compile_bytecode
+KeyboardInterrupt

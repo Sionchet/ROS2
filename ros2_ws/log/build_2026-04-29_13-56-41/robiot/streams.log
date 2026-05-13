@@ -1,0 +1,38 @@
+[12.184s] Invoking command in '/home/dae/ros2_ws/src/robiot': PYTHONPATH=/home/dae/ros2_ws/build/robiot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robiot build --build-base /home/dae/ros2_ws/build/robiot/build install --record /home/dae/ros2_ws/build/robiot/install.log --install-scripts $base/lib/robiot --single-version-externally-managed install_data
+[12.325s] 'import warnings' failed; traceback:
+[12.327s] Traceback (most recent call last):
+[12.328s]   File "/usr/lib/python3.8/warnings.py", line 538, in <module>
+[12.341s]     _processoptions(sys.warnoptions)
+[12.342s]   File "/usr/lib/python3.8/warnings.py", line 208, in _processoptions
+[12.343s]     _setoption(arg)
+[12.344s]   File "/usr/lib/python3.8/warnings.py", line 224, in _setoption
+[12.351s]     import re
+[12.353s]   File "/usr/lib/python3.8/re.py", line 127, in <module>
+[12.356s]     import functools
+[12.357s]   File "/usr/lib/python3.8/functools.py", line 18, in <module>
+[12.362s]     from collections import namedtuple
+[12.365s]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[12.371s]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[12.372s]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[12.374s]   File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+[12.376s]   File "<frozen importlib._bootstrap_external>", line 976, in get_code
+[12.377s]   File "<frozen importlib._bootstrap_external>", line 640, in _compile_bytecode
+[12.379s] KeyboardInterrupt
+[14.444s] running egg_info
+[14.451s] writing ../../build/robiot/robiot.egg-info/PKG-INFO
+[14.454s] writing dependency_links to ../../build/robiot/robiot.egg-info/dependency_links.txt
+[14.457s] writing entry points to ../../build/robiot/robiot.egg-info/entry_points.txt
+[14.460s] writing requirements to ../../build/robiot/robiot.egg-info/requires.txt
+[14.462s] writing top-level names to ../../build/robiot/robiot.egg-info/top_level.txt
+[14.763s] reading manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+[14.770s] writing manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+[14.772s] running build
+[14.774s] running build_py
+[14.775s] running install
+[14.780s] running install_lib
+[14.790s] running install_data
+[14.792s] running install_egg_info
+[14.806s] removing '/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info' (and everything under it)
+[14.809s] Copying ../../build/robiot/robiot.egg-info to /home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info
+[14.818s] running install_scripts
+[14.940s] writing list of installed files to '/home/dae/ros2_ws/build/robiot/install.log'

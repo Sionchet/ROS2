@@ -1,0 +1,20 @@
+[10.711s] Invoking command in '/home/dae/ros2_ws/src/robiot': PYTHONPATH=/home/dae/ros2_ws/build/robiot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robiot build --build-base /home/dae/ros2_ws/build/robiot/build install --record /home/dae/ros2_ws/build/robiot/install.log --install-scripts $base/lib/robiot --single-version-externally-managed install_data
+[13.463s] running egg_info
+[13.470s] writing ../../build/robiot/robiot.egg-info/PKG-INFO
+[13.494s] writing dependency_links to ../../build/robiot/robiot.egg-info/dependency_links.txt
+[13.497s] writing entry points to ../../build/robiot/robiot.egg-info/entry_points.txt
+[13.498s] writing requirements to ../../build/robiot/robiot.egg-info/requires.txt
+[13.499s] writing top-level names to ../../build/robiot/robiot.egg-info/top_level.txt
+[13.897s] reading manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+[13.915s] writing manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+[13.916s] running build
+[13.917s] running build_py
+[13.936s] running install
+[13.941s] running install_lib
+[13.951s] running install_data
+[13.955s] running install_egg_info
+[13.966s] removing '/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info' (and everything under it)
+[13.968s] Copying ../../build/robiot/robiot.egg-info to /home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info
+[14.005s] running install_scripts
+[14.135s] writing list of installed files to '/home/dae/ros2_ws/build/robiot/install.log'
+[14.274s] Invoked command in '/home/dae/ros2_ws/src/robiot' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/robiot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robiot build --build-base /home/dae/ros2_ws/build/robiot/build install --record /home/dae/ros2_ws/build/robiot/install.log --install-scripts $base/lib/robiot --single-version-externally-managed install_data
