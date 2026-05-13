@@ -1,0 +1,186 @@
+[1.627s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.627s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc456626490>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc456626490>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc456636100>)
+[3.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.022s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.022s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dae/ros2_ws'
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.027s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.028s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.116s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.118s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.119s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.123s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.125s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[3.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[3.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[3.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[3.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[3.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[3.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[3.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extensions ['ignore', 'ignore_ament_install']
+[3.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extension 'ignore'
+[3.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extension 'ignore_ament_install'
+[3.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extensions ['colcon_pkg']
+[3.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extension 'colcon_pkg'
+[3.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extensions ['colcon_meta']
+[3.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extension 'colcon_meta'
+[3.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extensions ['ros']
+[3.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/minisumo_core) by extension 'ros'
+[3.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minisumo_core' with type 'ros.ament_python' and name 'minisumo_core'
+[3.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extensions ['ignore', 'ignore_ament_install']
+[3.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extension 'ignore'
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extension 'ignore_ament_install'
+[3.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extensions ['colcon_pkg']
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extension 'colcon_pkg'
+[3.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extensions ['colcon_meta']
+[3.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extension 'colcon_meta'
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extensions ['ros']
+[3.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/robiot) by extension 'ros'
+[3.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robiot' with type 'ros.ament_python' and name 'robiot'
+[3.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dae/ros2_ws/install
+[3.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 264 installed packages in /opt/ros/foxy
+[3.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.934s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'cmake_args' from command line to 'None'
+[3.935s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'cmake_target' from command line to 'None'
+[3.935s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.935s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'cmake_clean_cache' from command line to 'False'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'cmake_clean_first' from command line to 'False'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'cmake_force_configure' from command line to 'False'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'ament_cmake_args' from command line to 'None'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'catkin_cmake_args' from command line to 'None'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'minisumo_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.937s] DEBUG:colcon.colcon_core.verb:Building package 'minisumo_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dae/ros2_ws/build/minisumo_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dae/ros2_ws/install/minisumo_core', 'merge_install': False, 'path': '/home/dae/ros2_ws/src/minisumo_core', 'symlink_install': False, 'test_result_base': None}
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'cmake_args' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'cmake_target' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'cmake_clean_first' from command line to 'False'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'cmake_force_configure' from command line to 'False'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'ament_cmake_args' from command line to 'None'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.943s] Level 5:colcon.colcon_core.verb:set package 'robiot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.943s] DEBUG:colcon.colcon_core.verb:Building package 'robiot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dae/ros2_ws/build/robiot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dae/ros2_ws/install/robiot', 'merge_install': False, 'path': '/home/dae/ros2_ws/src/robiot', 'symlink_install': False, 'test_result_base': None}
+[3.944s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.950s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.952s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dae/ros2_ws/src/minisumo_core' with build type 'ament_python'
+[3.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('minisumo_core', 'ament_prefix_path')
+[3.975s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/hook/ament_prefix_path.ps1'
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/hook/ament_prefix_path.dsv'
+[3.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/hook/ament_prefix_path.sh'
+[3.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.991s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.025s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dae/ros2_ws/src/robiot' with build type 'ament_python'
+[4.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('robiot', 'ament_prefix_path')
+[4.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/robiot/share/robiot/hook/ament_prefix_path.ps1'
+[4.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dae/ros2_ws/install/robiot/share/robiot/hook/ament_prefix_path.dsv'
+[4.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/robiot/share/robiot/hook/ament_prefix_path.sh'
+[4.049s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.985s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dae/ros2_ws/src/minisumo_core'
+[5.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.023s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dae/ros2_ws/src/robiot'
+[8.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dae/ros2_ws/src/robiot': PYTHONPATH=/home/dae/ros2_ws/build/robiot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robiot build --build-base /home/dae/ros2_ws/build/robiot/build install --record /home/dae/ros2_ws/build/robiot/install.log --install-scripts $base/lib/robiot --single-version-externally-managed install_data
+[12.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dae/ros2_ws/src/minisumo_core': PYTHONPATH=/home/dae/ros2_ws/build/minisumo_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/minisumo_core build --build-base /home/dae/ros2_ws/build/minisumo_core/build install --record /home/dae/ros2_ws/build/minisumo_core/install.log --install-scripts $base/lib/minisumo_core --single-version-externally-managed install_data
+[15.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dae/ros2_ws/src/robiot' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/robiot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robiot build --build-base /home/dae/ros2_ws/build/robiot/build install --record /home/dae/ros2_ws/build/robiot/install.log --install-scripts $base/lib/robiot --single-version-externally-managed install_data
+[15.994s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/robiot' for CMake module files
+[16.000s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/robiot' for CMake config files
+[16.007s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/robiot/lib'
+[16.009s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/robiot/bin'
+[16.010s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/robiot/lib/pkgconfig/robiot.pc'
+[16.012s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages'
+[16.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('robiot', 'pythonpath')
+[16.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/robiot/share/robiot/hook/pythonpath.ps1'
+[16.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dae/ros2_ws/install/robiot/share/robiot/hook/pythonpath.dsv'
+[16.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/robiot/share/robiot/hook/pythonpath.sh'
+[16.028s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/robiot/bin'
+[16.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robiot)
+[16.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/robiot/share/robiot/package.ps1'
+[16.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dae/ros2_ws/install/robiot/share/robiot/package.dsv'
+[16.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/robiot/share/robiot/package.sh'
+[16.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/robiot/share/robiot/package.bash'
+[16.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/robiot/share/robiot/package.zsh'
+[16.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dae/ros2_ws/install/robiot/share/colcon-core/packages/robiot)
+[16.449s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/minisumo_core' for CMake module files
+[16.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dae/ros2_ws/src/minisumo_core' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/minisumo_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/minisumo_core build --build-base /home/dae/ros2_ws/build/minisumo_core/build install --record /home/dae/ros2_ws/build/minisumo_core/install.log --install-scripts $base/lib/minisumo_core --single-version-externally-managed install_data
+[16.460s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/minisumo_core' for CMake config files
+[16.466s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/minisumo_core/lib'
+[16.467s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/minisumo_core/bin'
+[16.468s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/minisumo_core/lib/pkgconfig/minisumo_core.pc'
+[16.470s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages'
+[16.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('minisumo_core', 'pythonpath')
+[16.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/hook/pythonpath.ps1'
+[16.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/hook/pythonpath.dsv'
+[16.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/hook/pythonpath.sh'
+[16.489s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/minisumo_core/bin'
+[16.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minisumo_core)
+[16.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/package.ps1'
+[16.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/package.dsv'
+[16.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/package.sh'
+[16.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/package.bash'
+[16.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/minisumo_core/share/minisumo_core/package.zsh'
+[16.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dae/ros2_ws/install/minisumo_core/share/colcon-core/packages/minisumo_core)
+[16.521s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.526s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.584s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.612s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dae/ros2_ws/install/local_setup.ps1'
+[16.626s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dae/ros2_ws/install/_local_setup_util_ps1.py'
+[16.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dae/ros2_ws/install/setup.ps1'
+[16.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dae/ros2_ws/install/local_setup.sh'
+[16.659s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dae/ros2_ws/install/_local_setup_util_sh.py'
+[16.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dae/ros2_ws/install/setup.sh'
+[16.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dae/ros2_ws/install/local_setup.bash'
+[16.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dae/ros2_ws/install/setup.bash'
+[16.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dae/ros2_ws/install/local_setup.zsh'
+[16.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dae/ros2_ws/install/setup.zsh'
