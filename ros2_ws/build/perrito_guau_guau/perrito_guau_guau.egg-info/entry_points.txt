@@ -1,0 +1,3 @@
+[console_scripts]
+vayena_node = perrito_guau_guau.vayena_node:main
+

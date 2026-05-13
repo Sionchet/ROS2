@@ -1,0 +1,4 @@
+[console_scripts]
+keyboard_node = teleop_esp32.keyboard_node:main
+serial_node = teleop_esp32.serial_node:main
+
