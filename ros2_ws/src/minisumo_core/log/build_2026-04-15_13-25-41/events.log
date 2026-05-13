@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.002075] (minisumo_core) JobQueued: {'identifier': 'minisumo_core', 'dependencies': OrderedDict()}
+[0.004019] (minisumo_core) JobStarted: {'identifier': 'minisumo_core'}
+[0.098275] (-) TimerEvent: {}
+[0.200095] (-) TimerEvent: {}
+[0.302507] (-) TimerEvent: {}
+[0.403879] (-) TimerEvent: {}
+[0.504930] (-) TimerEvent: {}
+[0.605868] (-) TimerEvent: {}
+[0.706825] (-) TimerEvent: {}
+[0.807835] (-) TimerEvent: {}
+[0.908817] (-) TimerEvent: {}
+[1.009816] (-) TimerEvent: {}
+[1.110844] (-) TimerEvent: {}
+[1.211913] (-) TimerEvent: {}
+[1.313156] (-) TimerEvent: {}
+[1.414206] (-) TimerEvent: {}
+[1.515241] (-) TimerEvent: {}
+[1.616231] (-) TimerEvent: {}
+[1.717285] (-) TimerEvent: {}
+[1.818369] (-) TimerEvent: {}
+[1.919928] (-) TimerEvent: {}
+[2.021824] (-) TimerEvent: {}
+[2.122967] (-) TimerEvent: {}
+[2.225840] (-) TimerEvent: {}
+[2.329086] (-) TimerEvent: {}
+[2.430631] (-) TimerEvent: {}
+[2.531903] (-) TimerEvent: {}
+[2.633206] (-) TimerEvent: {}
+[2.734291] (-) TimerEvent: {}
+[2.835719] (-) TimerEvent: {}
+[2.936777] (-) TimerEvent: {}
+[3.037810] (-) TimerEvent: {}
+[3.139297] (-) TimerEvent: {}
+[3.241395] (-) TimerEvent: {}
+[3.342420] (-) TimerEvent: {}
+[3.443440] (-) TimerEvent: {}
+[3.544516] (-) TimerEvent: {}
+[3.645531] (-) TimerEvent: {}
+[3.746592] (-) TimerEvent: {}
+[3.847618] (-) TimerEvent: {}
+[3.948698] (-) TimerEvent: {}
+[4.049654] (-) TimerEvent: {}
+[4.150648] (-) TimerEvent: {}
+[4.251667] (-) TimerEvent: {}
+[4.353045] (-) TimerEvent: {}
+[4.454159] (-) TimerEvent: {}
+[4.555185] (-) TimerEvent: {}
+[4.656180] (-) TimerEvent: {}
+[4.757362] (-) TimerEvent: {}
+[4.858602] (-) TimerEvent: {}
+[4.960153] (-) TimerEvent: {}
+[5.062142] (-) TimerEvent: {}
+[5.163571] (-) TimerEvent: {}
+[5.264594] (-) TimerEvent: {}
+[5.365571] (-) TimerEvent: {}
+[5.466581] (-) TimerEvent: {}
+[5.567790] (-) TimerEvent: {}
+[5.669270] (-) TimerEvent: {}
+[5.770592] (-) TimerEvent: {}
+[5.872021] (-) TimerEvent: {}
+[5.973374] (-) TimerEvent: {}
+[6.075060] (-) TimerEvent: {}
+[6.177356] (-) TimerEvent: {}
+[6.278730] (-) TimerEvent: {}
+[6.380713] (-) TimerEvent: {}
+[6.481736] (-) TimerEvent: {}
+[6.582609] (-) TimerEvent: {}
+[6.683828] (-) TimerEvent: {}
+[6.785111] (-) TimerEvent: {}
+[6.886275] (-) TimerEvent: {}
+[6.987698] (-) TimerEvent: {}
+[7.089488] (-) TimerEvent: {}
+[7.190995] (-) TimerEvent: {}
+[7.292478] (-) TimerEvent: {}
+[7.298858] (minisumo_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/minisumo_core', 'build', '--build-base', '/home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build', 'install', '--record', '/home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/install.log', '--install-scripts', '$base/lib/minisumo_core', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dae/ros2_ws/src/minisumo_core', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dae', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2497', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dae', 'OLDPWD': '/home/dae/ros2_ws/src', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dae', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dae', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dae/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Dae:@/tmp/.ICE-unix/2432,unix/Dae:/tmp/.ICE-unix/2432', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/114d0c71_4bdc_43d4_870d_a4fb7db1eae8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.59', 'SSH_AUTH_SOCK': '/tmp/ssh-9OHn1IPcdFjS/agent.2432', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'XDG_VTNR': '2', 'PWD': '/home/dae/ros2_ws/src/minisumo_core/build/minisumo_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[7.392795] (-) TimerEvent: {}
+[7.494877] (-) TimerEvent: {}
+[7.596068] (-) TimerEvent: {}
+[7.698296] (-) TimerEvent: {}
+[7.800634] (-) TimerEvent: {}
+[7.901728] (-) TimerEvent: {}
+[8.002901] (-) TimerEvent: {}
+[8.104231] (-) TimerEvent: {}
+[8.205519] (-) TimerEvent: {}
+[8.306845] (-) TimerEvent: {}
+[8.408030] (-) TimerEvent: {}
+[8.509304] (-) TimerEvent: {}
+[8.611090] (-) TimerEvent: {}
+[8.713062] (-) TimerEvent: {}
+[8.815210] (-) TimerEvent: {}
+[8.916576] (-) TimerEvent: {}
+[9.017886] (-) TimerEvent: {}
+[9.119079] (-) TimerEvent: {}
+[9.215541] (minisumo_core) StdoutLine: {'line': b'running egg_info\n'}
+[9.219342] (-) TimerEvent: {}
+[9.220780] (minisumo_core) StdoutLine: {'line': b'creating build/minisumo_core/minisumo_core.egg-info\n'}
+[9.222760] (minisumo_core) StdoutLine: {'line': b'writing build/minisumo_core/minisumo_core.egg-info/PKG-INFO\n'}
+[9.224804] (minisumo_core) StdoutLine: {'line': b'writing dependency_links to build/minisumo_core/minisumo_core.egg-info/dependency_links.txt\n'}
+[9.226683] (minisumo_core) StdoutLine: {'line': b'writing entry points to build/minisumo_core/minisumo_core.egg-info/entry_points.txt\n'}
+[9.229132] (minisumo_core) StdoutLine: {'line': b'writing requirements to build/minisumo_core/minisumo_core.egg-info/requires.txt\n'}
+[9.230456] (minisumo_core) StdoutLine: {'line': b'writing top-level names to build/minisumo_core/minisumo_core.egg-info/top_level.txt\n'}
+[9.262439] (minisumo_core) StdoutLine: {'line': b"writing manifest file 'build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'\n"}
+[9.320173] (-) TimerEvent: {}
+[9.421575] (-) TimerEvent: {}
+[9.523504] (-) TimerEvent: {}
+[9.588218] (minisumo_core) StdoutLine: {'line': b"reading manifest file 'build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'\n"}
+[9.594332] (minisumo_core) StdoutLine: {'line': b"writing manifest file 'build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'\n"}
+[9.595799] (minisumo_core) StdoutLine: {'line': b'running build\n'}
+[9.597336] (minisumo_core) StdoutLine: {'line': b'running build_py\n'}
+[9.599403] (minisumo_core) StdoutLine: {'line': b'creating /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build\n'}
+[9.600929] (minisumo_core) StdoutLine: {'line': b'creating /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib\n'}
+[9.601816] (minisumo_core) StdoutLine: {'line': b'creating /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core\n'}
+[9.603155] (minisumo_core) StdoutLine: {'line': b'copying minisumo_core/logger_csv.py -> /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core\n'}
+[9.610609] (minisumo_core) StdoutLine: {'line': b'copying minisumo_core/gengar_odom.py -> /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core\n'}
+[9.621480] (minisumo_core) StdoutLine: {'line': b'copying minisumo_core/__init__.py -> /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core\n'}
+[9.624868] (-) TimerEvent: {}
+[9.626339] (minisumo_core) StdoutLine: {'line': b'copying minisumo_core/teleop_rutinas.py -> /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core\n'}
+[9.629844] (minisumo_core) StdoutLine: {'line': b'copying minisumo_core/odometria.py -> /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core\n'}
+[9.633535] (minisumo_core) StdoutLine: {'line': b'running install\n'}
+[9.645011] (minisumo_core) StdoutLine: {'line': b'running install_lib\n'}
+[9.655276] (minisumo_core) StdoutLine: {'line': b'creating /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core\n'}
+[9.658449] (minisumo_core) StdoutLine: {'line': b'copying /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core/logger_csv.py -> /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core\n'}
+[9.660292] (minisumo_core) StdoutLine: {'line': b'copying /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core/gengar_odom.py -> /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core\n'}
+[9.665540] (minisumo_core) StdoutLine: {'line': b'copying /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core/__init__.py -> /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core\n'}
+[9.677358] (minisumo_core) StdoutLine: {'line': b'copying /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core/teleop_rutinas.py -> /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core\n'}
+[9.681282] (minisumo_core) StdoutLine: {'line': b'copying /home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/build/lib/minisumo_core/odometria.py -> /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core\n'}
+[9.683436] (minisumo_core) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/logger_csv.py to logger_csv.cpython-38.pyc\n'}
+[9.688113] (minisumo_core) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/gengar_odom.py to gengar_odom.cpython-38.pyc\n'}
+[9.692490] (minisumo_core) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/__init__.py to __init__.cpython-38.pyc\n'}
+[9.695289] (minisumo_core) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/teleop_rutinas.py to teleop_rutinas.cpython-38.pyc\n'}
+[9.705733] (minisumo_core) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/odometria.py to odometria.cpython-38.pyc\n'}
+[9.707876] (minisumo_core) StderrLine: {'line': b'  File "/home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core/odometria.py", line 59\n'}
+[9.710547] (minisumo_core) StderrLine: {'line': b'    a)\n'}
+[9.712368] (minisumo_core) StderrLine: {'line': b'     ^\n'}
+[9.714004] (minisumo_core) StderrLine: {'line': b"SyntaxError: unmatched ')'\n"}
+[9.715460] (minisumo_core) StderrLine: {'line': b'\n'}
+[9.728222] (-) TimerEvent: {}
+[9.742402] (minisumo_core) StdoutLine: {'line': b'running install_data\n'}
+[9.743972] (minisumo_core) StdoutLine: {'line': b'creating /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/share/ament_index\n'}
+[9.761566] (minisumo_core) StdoutLine: {'line': b'creating /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/share/ament_index/resource_index\n'}
+[9.772698] (minisumo_core) StdoutLine: {'line': b'creating /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/share/ament_index/resource_index/packages\n'}
+[9.774105] (minisumo_core) StdoutLine: {'line': b'copying resource/minisumo_core -> /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/share/ament_index/resource_index/packages\n'}
+[9.775103] (minisumo_core) StdoutLine: {'line': b'copying package.xml -> /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/share/minisumo_core\n'}
+[9.776043] (minisumo_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.781761] (minisumo_core) StdoutLine: {'line': b'Copying build/minisumo_core/minisumo_core.egg-info to /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/python3.8/site-packages/minisumo_core-0.0.0-py3.8.egg-info\n'}
+[9.783331] (minisumo_core) StdoutLine: {'line': b'running install_scripts\n'}
+[9.828757] (-) TimerEvent: {}
+[9.931414] (-) TimerEvent: {}
+[9.989317] (minisumo_core) StdoutLine: {'line': b'Installing logger_csv script to /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/minisumo_core\n'}
+[9.991913] (minisumo_core) StdoutLine: {'line': b'Installing odometria script to /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/minisumo_core\n'}
+[9.994377] (minisumo_core) StdoutLine: {'line': b'Installing teleop script to /home/dae/ros2_ws/src/minisumo_core/install/minisumo_core/lib/minisumo_core\n'}
+[9.998206] (minisumo_core) StdoutLine: {'line': b"writing list of installed files to '/home/dae/ros2_ws/src/minisumo_core/build/minisumo_core/install.log'\n"}
+[10.031728] (-) TimerEvent: {}
+[10.133635] (-) TimerEvent: {}
+[10.170554] (minisumo_core) CommandEnded: {'returncode': 0}
+[10.234000] (-) TimerEvent: {}
+[10.336034] (-) TimerEvent: {}
+[10.437458] (-) TimerEvent: {}
+[10.522643] (minisumo_core) JobEnded: {'identifier': 'minisumo_core', 'rc': 0}
+[10.529029] (-) EventReactorShutdown: {}
