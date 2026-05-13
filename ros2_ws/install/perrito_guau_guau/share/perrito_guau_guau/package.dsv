@@ -1,0 +1,9 @@
+source;share/perrito_guau_guau/hook/pythonpath.ps1
+source;share/perrito_guau_guau/hook/pythonpath.dsv
+source;share/perrito_guau_guau/hook/pythonpath.sh
+source;share/perrito_guau_guau/hook/ament_prefix_path.ps1
+source;share/perrito_guau_guau/hook/ament_prefix_path.dsv
+source;share/perrito_guau_guau/hook/ament_prefix_path.sh
+source;../../build/perrito_guau_guau/share/perrito_guau_guau/hook/pythonpath_develop.ps1
+source;../../build/perrito_guau_guau/share/perrito_guau_guau/hook/pythonpath_develop.dsv
+source;../../build/perrito_guau_guau/share/perrito_guau_guau/hook/pythonpath_develop.sh
