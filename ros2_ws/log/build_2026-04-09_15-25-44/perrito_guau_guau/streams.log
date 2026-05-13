@@ -1,0 +1,21 @@
+[7.259s] Invoking command in '/home/dae/ros2_ws/gatito62/perrito_guau_guau': PYTHONPATH=/home/dae/ros2_ws/build/perrito_guau_guau/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perrito_guau_guau build --build-base /home/dae/ros2_ws/build/perrito_guau_guau/build install --record /home/dae/ros2_ws/build/perrito_guau_guau/install.log --install-scripts $base/lib/perrito_guau_guau --single-version-externally-managed install_data
+[9.166s] running egg_info
+[9.176s] writing ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/PKG-INFO
+[9.178s] writing dependency_links to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/dependency_links.txt
+[9.179s] writing entry points to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/entry_points.txt
+[9.181s] writing requirements to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/requires.txt
+[9.182s] writing top-level names to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/top_level.txt
+[9.469s] reading manifest file '../../build/perrito_guau_guau/perrito_guau_guau.egg-info/SOURCES.txt'
+[9.481s] writing manifest file '../../build/perrito_guau_guau/perrito_guau_guau.egg-info/SOURCES.txt'
+[9.483s] running build
+[9.484s] running build_py
+[9.487s] running install
+[9.489s] running install_lib
+[9.501s] running install_data
+[9.505s] running install_egg_info
+[9.516s] removing '/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/perrito_guau_guau-0.0.0-py3.8.egg-info' (and everything under it)
+[9.519s] Copying ../../build/perrito_guau_guau/perrito_guau_guau.egg-info to /home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/perrito_guau_guau-0.0.0-py3.8.egg-info
+[9.528s] running install_scripts
+[9.658s] Installing vayena script to /home/dae/ros2_ws/install/perrito_guau_guau/lib/perrito_guau_guau
+[9.661s] writing list of installed files to '/home/dae/ros2_ws/build/perrito_guau_guau/install.log'
+[9.853s] Invoked command in '/home/dae/ros2_ws/gatito62/perrito_guau_guau' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/perrito_guau_guau/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perrito_guau_guau build --build-base /home/dae/ros2_ws/build/perrito_guau_guau/build install --record /home/dae/ros2_ws/build/perrito_guau_guau/install.log --install-scripts $base/lib/perrito_guau_guau --single-version-externally-managed install_data

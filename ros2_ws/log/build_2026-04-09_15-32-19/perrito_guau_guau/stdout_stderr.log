@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/PKG-INFO
+writing dependency_links to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/dependency_links.txt
+writing entry points to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/entry_points.txt
+writing requirements to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/requires.txt
+writing top-level names to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/top_level.txt
+reading manifest file '../../build/perrito_guau_guau/perrito_guau_guau.egg-info/SOURCES.txt'
+writing manifest file '../../build/perrito_guau_guau/perrito_guau_guau.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/perrito_guau_guau-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/perrito_guau_guau/perrito_guau_guau.egg-info to /home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/perrito_guau_guau-0.0.0-py3.8.egg-info
+running install_scripts
+Installing vayena_node script to /home/dae/ros2_ws/install/perrito_guau_guau/lib/perrito_guau_guau
+writing list of installed files to '/home/dae/ros2_ws/build/perrito_guau_guau/install.log'

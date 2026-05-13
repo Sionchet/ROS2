@@ -1,0 +1,20 @@
+[10.453s] Invoking command in '/home/dae/ros2_ws/build/perrito_guau_guau': PYTHONPATH=/home/dae/ros2_ws/build/perrito_guau_guau/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dae/ros2_ws/build/perrito_guau_guau/build --no-deps symlink_data --force
+[13.425s] running develop
+[15.613s] running egg_info
+[15.614s] writing perrito_guau_guau.egg-info/PKG-INFO
+[15.631s] writing dependency_links to perrito_guau_guau.egg-info/dependency_links.txt
+[15.634s] writing entry points to perrito_guau_guau.egg-info/entry_points.txt
+[15.637s] writing requirements to perrito_guau_guau.egg-info/requires.txt
+[15.638s] writing top-level names to perrito_guau_guau.egg-info/top_level.txt
+[15.954s] reading manifest file 'perrito_guau_guau.egg-info/SOURCES.txt'
+[15.977s] writing manifest file 'perrito_guau_guau.egg-info/SOURCES.txt'
+[16.370s] running build_ext
+[16.374s] Creating /home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/site.py
+[16.390s] Creating /home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/perrito-guau-guau.egg-link (link to .)
+[16.406s] Installing vayena_node script to /home/dae/ros2_ws/install/perrito_guau_guau/lib/perrito_guau_guau
+[16.411s] 
+[16.414s] Installed /home/dae/ros2_ws/build/perrito_guau_guau
+[16.415s] running symlink_data
+[16.417s] symbolically linking /home/dae/ros2_ws/build/perrito_guau_guau/resource/perrito_guau_guau -> /home/dae/ros2_ws/install/perrito_guau_guau/share/ament_index/resource_index/packages
+[16.420s] symbolically linking /home/dae/ros2_ws/build/perrito_guau_guau/package.xml -> /home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau
+[16.702s] Invoked command in '/home/dae/ros2_ws/build/perrito_guau_guau' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/perrito_guau_guau/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dae/ros2_ws/build/perrito_guau_guau/build --no-deps symlink_data --force

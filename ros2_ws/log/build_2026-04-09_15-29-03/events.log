@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.002782] (perrito_guau_guau) JobQueued: {'identifier': 'perrito_guau_guau', 'dependencies': OrderedDict()}
+[0.004334] (teleop_esp32) JobQueued: {'identifier': 'teleop_esp32', 'dependencies': OrderedDict()}
+[0.007034] (perrito_guau_guau) JobStarted: {'identifier': 'perrito_guau_guau'}
+[0.077809] (teleop_esp32) JobStarted: {'identifier': 'teleop_esp32'}
+[0.098857] (-) TimerEvent: {}
+[0.201064] (-) TimerEvent: {}
+[0.303506] (-) TimerEvent: {}
+[0.404958] (-) TimerEvent: {}
+[0.506723] (-) TimerEvent: {}
+[0.608289] (-) TimerEvent: {}
+[0.709494] (-) TimerEvent: {}
+[0.810762] (-) TimerEvent: {}
+[0.911919] (-) TimerEvent: {}
+[1.013145] (-) TimerEvent: {}
+[1.114402] (-) TimerEvent: {}
+[1.215603] (-) TimerEvent: {}
+[1.316804] (-) TimerEvent: {}
+[1.417979] (-) TimerEvent: {}
+[1.519309] (-) TimerEvent: {}
+[1.620516] (-) TimerEvent: {}
+[1.721756] (-) TimerEvent: {}
+[1.823110] (-) TimerEvent: {}
+[1.924216] (-) TimerEvent: {}
+[2.027325] (-) TimerEvent: {}
+[2.132375] (-) TimerEvent: {}
+[2.234122] (-) TimerEvent: {}
+[2.335376] (-) TimerEvent: {}
+[2.436533] (-) TimerEvent: {}
+[2.537656] (-) TimerEvent: {}
+[2.638871] (-) TimerEvent: {}
+[2.740209] (-) TimerEvent: {}
+[2.841586] (-) TimerEvent: {}
+[2.942961] (-) TimerEvent: {}
+[3.044232] (-) TimerEvent: {}
+[3.145552] (-) TimerEvent: {}
+[3.247857] (-) TimerEvent: {}
+[3.349178] (-) TimerEvent: {}
+[3.450585] (-) TimerEvent: {}
+[3.551766] (-) TimerEvent: {}
+[3.652927] (-) TimerEvent: {}
+[3.754011] (-) TimerEvent: {}
+[3.855730] (-) TimerEvent: {}
+[3.957866] (-) TimerEvent: {}
+[4.059846] (-) TimerEvent: {}
+[4.161105] (-) TimerEvent: {}
+[4.262467] (-) TimerEvent: {}
+[4.363810] (-) TimerEvent: {}
+[4.465286] (-) TimerEvent: {}
+[4.566828] (-) TimerEvent: {}
+[4.668252] (-) TimerEvent: {}
+[4.769618] (-) TimerEvent: {}
+[4.870966] (-) TimerEvent: {}
+[4.972307] (-) TimerEvent: {}
+[5.073665] (-) TimerEvent: {}
+[5.175029] (-) TimerEvent: {}
+[5.276217] (-) TimerEvent: {}
+[5.377540] (-) TimerEvent: {}
+[5.478999] (-) TimerEvent: {}
+[5.580438] (-) TimerEvent: {}
+[5.681740] (-) TimerEvent: {}
+[5.783679] (-) TimerEvent: {}
+[5.884917] (-) TimerEvent: {}
+[5.986166] (-) TimerEvent: {}
+[6.087977] (-) TimerEvent: {}
+[6.189172] (-) TimerEvent: {}
+[6.290665] (-) TimerEvent: {}
+[6.392026] (-) TimerEvent: {}
+[6.493291] (-) TimerEvent: {}
+[6.594604] (-) TimerEvent: {}
+[6.695830] (-) TimerEvent: {}
+[6.797226] (-) TimerEvent: {}
+[6.898510] (-) TimerEvent: {}
+[6.999951] (-) TimerEvent: {}
+[7.101866] (-) TimerEvent: {}
+[7.122771] (perrito_guau_guau) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/perrito_guau_guau', 'build', '--build-base', '/home/dae/ros2_ws/build/perrito_guau_guau/build', 'install', '--record', '/home/dae/ros2_ws/build/perrito_guau_guau/install.log', '--install-scripts', '$base/lib/perrito_guau_guau', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dae/ros2_ws/gatito62/perrito_guau_guau', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dae', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '6972', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dae', 'OLDPWD': '/home/dae/ros2_ws/gatito62', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dae/ros2_ws/install:/home/dae/ros2_ws/gatito62/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dae', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dae', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Dae:@/tmp/.ICE-unix/6840,unix/Dae:/tmp/.ICE-unix/6840', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cffd9cbd_c65a_457c_8a5d_d383c620d682', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.72', 'SSH_AUTH_SOCK': '/tmp/ssh-Iy40oca3f2nc/agent.6840', 'AMENT_PREFIX_PATH': '/home/dae/ros2_ws/install/teleop_esp32:/home/dae/ros2_ws/install/perrito_guau_guau:/home/dae/ros2_ws/gatito62/install/perrito_guau_guau:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'XDG_VTNR': '2', 'PWD': '/home/dae/ros2_ws/build/perrito_guau_guau', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/dae/ros2_ws/build/perrito_guau_guau/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:/home/dae/ros2_ws/gatito62/install/perrito_guau_guau/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[7.211261] (teleop_esp32) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_esp32', 'build', '--build-base', '/home/dae/ros2_ws/build/teleop_esp32/build', 'install', '--record', '/home/dae/ros2_ws/build/teleop_esp32/install.log', '--install-scripts', '$base/lib/teleop_esp32', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dae/ros2_ws/src/teleop_esp32', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dae', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '6972', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dae', 'OLDPWD': '/home/dae/ros2_ws/gatito62', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dae/ros2_ws/install:/home/dae/ros2_ws/gatito62/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dae', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dae', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Dae:@/tmp/.ICE-unix/6840,unix/Dae:/tmp/.ICE-unix/6840', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cffd9cbd_c65a_457c_8a5d_d383c620d682', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.72', 'SSH_AUTH_SOCK': '/tmp/ssh-Iy40oca3f2nc/agent.6840', 'AMENT_PREFIX_PATH': '/home/dae/ros2_ws/install/teleop_esp32:/home/dae/ros2_ws/install/perrito_guau_guau:/home/dae/ros2_ws/gatito62/install/perrito_guau_guau:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'XDG_VTNR': '2', 'PWD': '/home/dae/ros2_ws/build/teleop_esp32', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/dae/ros2_ws/build/teleop_esp32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:/home/dae/ros2_ws/gatito62/install/perrito_guau_guau/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[7.229031] (-) TimerEvent: {}
+[7.330661] (-) TimerEvent: {}
+[7.431957] (-) TimerEvent: {}
+[7.533213] (-) TimerEvent: {}
+[7.634506] (-) TimerEvent: {}
+[7.735692] (-) TimerEvent: {}
+[7.836953] (-) TimerEvent: {}
+[7.938193] (-) TimerEvent: {}
+[8.039676] (-) TimerEvent: {}
+[8.141527] (-) TimerEvent: {}
+[8.243474] (-) TimerEvent: {}
+[8.344709] (-) TimerEvent: {}
+[8.446589] (-) TimerEvent: {}
+[8.548358] (-) TimerEvent: {}
+[8.649934] (-) TimerEvent: {}
+[8.751695] (-) TimerEvent: {}
+[8.853332] (-) TimerEvent: {}
+[8.954957] (-) TimerEvent: {}
+[9.029543] (perrito_guau_guau) StdoutLine: {'line': b'running egg_info\n'}
+[9.034821] (perrito_guau_guau) StdoutLine: {'line': b'writing ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/PKG-INFO\n'}
+[9.036921] (perrito_guau_guau) StdoutLine: {'line': b'writing dependency_links to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/dependency_links.txt\n'}
+[9.038891] (perrito_guau_guau) StdoutLine: {'line': b'writing entry points to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/entry_points.txt\n'}
+[9.040699] (perrito_guau_guau) StdoutLine: {'line': b'writing requirements to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/requires.txt\n'}
+[9.042560] (perrito_guau_guau) StdoutLine: {'line': b'writing top-level names to ../../build/perrito_guau_guau/perrito_guau_guau.egg-info/top_level.txt\n'}
+[9.055203] (-) TimerEvent: {}
+[9.100415] (teleop_esp32) StdoutLine: {'line': b'running egg_info\n'}
+[9.104721] (teleop_esp32) StdoutLine: {'line': b'writing ../../build/teleop_esp32/teleop_esp32.egg-info/PKG-INFO\n'}
+[9.106931] (teleop_esp32) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_esp32/teleop_esp32.egg-info/dependency_links.txt\n'}
+[9.108945] (teleop_esp32) StdoutLine: {'line': b'writing entry points to ../../build/teleop_esp32/teleop_esp32.egg-info/entry_points.txt\n'}
+[9.111260] (teleop_esp32) StdoutLine: {'line': b'writing requirements to ../../build/teleop_esp32/teleop_esp32.egg-info/requires.txt\n'}
+[9.112449] (teleop_esp32) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_esp32/teleop_esp32.egg-info/top_level.txt\n'}
+[9.155480] (-) TimerEvent: {}
+[9.256828] (-) TimerEvent: {}
+[9.337989] (perrito_guau_guau) StdoutLine: {'line': b"reading manifest file '../../build/perrito_guau_guau/perrito_guau_guau.egg-info/SOURCES.txt'\n"}
+[9.344926] (perrito_guau_guau) StdoutLine: {'line': b"writing manifest file '../../build/perrito_guau_guau/perrito_guau_guau.egg-info/SOURCES.txt'\n"}
+[9.347132] (perrito_guau_guau) StdoutLine: {'line': b'running build\n'}
+[9.348876] (perrito_guau_guau) StdoutLine: {'line': b'running build_py\n'}
+[9.350106] (perrito_guau_guau) StdoutLine: {'line': b'running install\n'}
+[9.354517] (perrito_guau_guau) StdoutLine: {'line': b'running install_lib\n'}
+[9.357070] (-) TimerEvent: {}
+[9.364348] (perrito_guau_guau) StdoutLine: {'line': b'running install_data\n'}
+[9.366060] (perrito_guau_guau) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.377572] (perrito_guau_guau) StdoutLine: {'line': b"removing '/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/perrito_guau_guau-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.380770] (perrito_guau_guau) StdoutLine: {'line': b'Copying ../../build/perrito_guau_guau/perrito_guau_guau.egg-info to /home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/perrito_guau_guau-0.0.0-py3.8.egg-info\n'}
+[9.389691] (perrito_guau_guau) StdoutLine: {'line': b'running install_scripts\n'}
+[9.404984] (teleop_esp32) StdoutLine: {'line': b"reading manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'\n"}
+[9.412678] (teleop_esp32) StdoutLine: {'line': b"writing manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'\n"}
+[9.414784] (teleop_esp32) StdoutLine: {'line': b'running build\n'}
+[9.416040] (teleop_esp32) StdoutLine: {'line': b'running build_py\n'}
+[9.417665] (teleop_esp32) StdoutLine: {'line': b'running install\n'}
+[9.422106] (teleop_esp32) StdoutLine: {'line': b'running install_lib\n'}
+[9.432264] (teleop_esp32) StdoutLine: {'line': b'running install_data\n'}
+[9.433999] (teleop_esp32) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.445049] (teleop_esp32) StdoutLine: {'line': b"removing '/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.447947] (teleop_esp32) StdoutLine: {'line': b'Copying ../../build/teleop_esp32/teleop_esp32.egg-info to /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32-0.0.0-py3.8.egg-info\n'}
+[9.455871] (teleop_esp32) StdoutLine: {'line': b'running install_scripts\n'}
+[9.457113] (-) TimerEvent: {}
+[9.517684] (perrito_guau_guau) StdoutLine: {'line': b'Installing vayena script to /home/dae/ros2_ws/install/perrito_guau_guau/lib/perrito_guau_guau\n'}
+[9.520418] (perrito_guau_guau) StdoutLine: {'line': b"writing list of installed files to '/home/dae/ros2_ws/build/perrito_guau_guau/install.log'\n"}
+[9.557468] (-) TimerEvent: {}
+[9.578617] (teleop_esp32) StdoutLine: {'line': b'Installing keyboard_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32\n'}
+[9.581023] (teleop_esp32) StdoutLine: {'line': b'Installing serial_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32\n'}
+[9.583032] (teleop_esp32) StdoutLine: {'line': b"writing list of installed files to '/home/dae/ros2_ws/build/teleop_esp32/install.log'\n"}
+[9.652757] (perrito_guau_guau) CommandEnded: {'returncode': 0}
+[9.658254] (-) TimerEvent: {}
+[9.749136] (perrito_guau_guau) JobEnded: {'identifier': 'perrito_guau_guau', 'rc': 0}
+[9.757729] (teleop_esp32) CommandEnded: {'returncode': 0}
+[9.764992] (-) TimerEvent: {}
+[9.828395] (teleop_esp32) JobEnded: {'identifier': 'teleop_esp32', 'rc': 0}
+[9.834222] (-) EventReactorShutdown: {}

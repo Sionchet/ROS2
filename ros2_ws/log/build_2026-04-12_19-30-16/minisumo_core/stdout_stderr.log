@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating minisumo_core.egg-info
+writing minisumo_core.egg-info/PKG-INFO
+writing dependency_links to minisumo_core.egg-info/dependency_links.txt
+writing entry points to minisumo_core.egg-info/entry_points.txt
+writing requirements to minisumo_core.egg-info/requires.txt
+writing top-level names to minisumo_core.egg-info/top_level.txt
+writing manifest file 'minisumo_core.egg-info/SOURCES.txt'
+reading manifest file 'minisumo_core.egg-info/SOURCES.txt'
+writing manifest file 'minisumo_core.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages/site.py
+Creating /home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages/minisumo-core.egg-link (link to .)
+
+Installed /home/dae/ros2_ws/build/minisumo_core
+running symlink_data
+creating /home/dae/ros2_ws/install/minisumo_core/share/ament_index
+creating /home/dae/ros2_ws/install/minisumo_core/share/ament_index/resource_index
+creating /home/dae/ros2_ws/install/minisumo_core/share/ament_index/resource_index/packages
+symbolically linking /home/dae/ros2_ws/build/minisumo_core/resource/minisumo_core -> /home/dae/ros2_ws/install/minisumo_core/share/ament_index/resource_index/packages
+symbolically linking /home/dae/ros2_ws/build/minisumo_core/package.xml -> /home/dae/ros2_ws/install/minisumo_core/share/minisumo_core

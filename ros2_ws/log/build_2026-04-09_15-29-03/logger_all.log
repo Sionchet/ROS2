@@ -1,0 +1,201 @@
+[1.591s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.591s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f12e51366a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f12e51366a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f12e50c7310>)
+[2.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.970s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.970s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dae/ros2_ws'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extensions ['ignore', 'ignore_ament_install']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extension 'ignore'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extension 'ignore_ament_install'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extensions ['colcon_pkg']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extension 'colcon_pkg'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extensions ['colcon_meta']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extension 'colcon_meta'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extensions ['ros']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extension 'ros'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extensions ['cmake', 'python']
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extension 'cmake'
+[3.070s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extension 'python'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extensions ['python_setup_py']
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62) by extension 'python_setup_py'
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/build) by extensions ['ignore', 'ignore_ament_install']
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/build) by extension 'ignore'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/build) ignored
+[3.074s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/install) by extensions ['ignore', 'ignore_ament_install']
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/install) by extension 'ignore'
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/install) ignored
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/log) by extensions ['ignore', 'ignore_ament_install']
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/log) by extension 'ignore'
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/log) ignored
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extensions ['ignore', 'ignore_ament_install']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extension 'ignore'
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extension 'ignore_ament_install'
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extensions ['colcon_pkg']
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extension 'colcon_pkg'
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extensions ['colcon_meta']
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extension 'colcon_meta'
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extensions ['ros']
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(gatito62/perrito_guau_guau) by extension 'ros'
+[3.098s] DEBUG:colcon.colcon_core.package_identification:Package 'gatito62/perrito_guau_guau' with type 'ros.ament_python' and name 'perrito_guau_guau'
+[3.099s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.099s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extensions ['ignore', 'ignore_ament_install']
+[3.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extension 'ignore'
+[3.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extension 'ignore_ament_install'
+[3.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extensions ['colcon_pkg']
+[3.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extension 'colcon_pkg'
+[3.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extensions ['colcon_meta']
+[3.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extension 'colcon_meta'
+[3.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extensions ['ros']
+[3.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_esp32) by extension 'ros'
+[3.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_esp32' with type 'ros.ament_python' and name 'teleop_esp32'
+[3.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.241s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dae/ros2_ws/install
+[3.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/dae/ros2_ws/gatito62/install
+[3.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[3.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'cmake_args' from command line to 'None'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'cmake_target' from command line to 'None'
+[3.868s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'cmake_clean_cache' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'cmake_clean_first' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'cmake_force_configure' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'ament_cmake_args' from command line to 'None'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'catkin_cmake_args' from command line to 'None'
+[3.870s] Level 5:colcon.colcon_core.verb:set package 'perrito_guau_guau' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.870s] DEBUG:colcon.colcon_core.verb:Building package 'perrito_guau_guau' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dae/ros2_ws/build/perrito_guau_guau', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dae/ros2_ws/install/perrito_guau_guau', 'merge_install': False, 'path': '/home/dae/ros2_ws/gatito62/perrito_guau_guau', 'symlink_install': False, 'test_result_base': None}
+[3.874s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'cmake_args' from command line to 'None'
+[3.874s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'cmake_target' from command line to 'None'
+[3.874s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.875s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'cmake_clean_cache' from command line to 'False'
+[3.875s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'cmake_clean_first' from command line to 'False'
+[3.875s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'cmake_force_configure' from command line to 'False'
+[3.875s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'ament_cmake_args' from command line to 'None'
+[3.876s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'catkin_cmake_args' from command line to 'None'
+[3.876s] Level 5:colcon.colcon_core.verb:set package 'teleop_esp32' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.876s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_esp32' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dae/ros2_ws/build/teleop_esp32', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dae/ros2_ws/install/teleop_esp32', 'merge_install': False, 'path': '/home/dae/ros2_ws/src/teleop_esp32', 'symlink_install': False, 'test_result_base': None}
+[3.877s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.885s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dae/ros2_ws/gatito62/perrito_guau_guau' with build type 'ament_python'
+[3.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('perrito_guau_guau', 'ament_prefix_path')
+[3.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/hook/ament_prefix_path.ps1'
+[3.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/hook/ament_prefix_path.dsv'
+[3.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/hook/ament_prefix_path.sh'
+[3.923s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.961s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dae/ros2_ws/src/teleop_esp32' with build type 'ament_python'
+[3.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_esp32', 'ament_prefix_path')
+[3.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/hook/ament_prefix_path.ps1'
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/hook/ament_prefix_path.dsv'
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/hook/ament_prefix_path.sh'
+[3.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.876s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dae/ros2_ws/gatito62/perrito_guau_guau'
+[5.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.729s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dae/ros2_ws/src/teleop_esp32'
+[7.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dae/ros2_ws/gatito62/perrito_guau_guau': PYTHONPATH=/home/dae/ros2_ws/build/perrito_guau_guau/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perrito_guau_guau build --build-base /home/dae/ros2_ws/build/perrito_guau_guau/build install --record /home/dae/ros2_ws/build/perrito_guau_guau/install.log --install-scripts $base/lib/perrito_guau_guau --single-version-externally-managed install_data
+[11.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dae/ros2_ws/src/teleop_esp32': PYTHONPATH=/home/dae/ros2_ws/build/teleop_esp32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_esp32 build --build-base /home/dae/ros2_ws/build/teleop_esp32/build install --record /home/dae/ros2_ws/build/teleop_esp32/install.log --install-scripts $base/lib/teleop_esp32 --single-version-externally-managed install_data
+[13.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dae/ros2_ws/gatito62/perrito_guau_guau' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/perrito_guau_guau/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perrito_guau_guau build --build-base /home/dae/ros2_ws/build/perrito_guau_guau/build install --record /home/dae/ros2_ws/build/perrito_guau_guau/install.log --install-scripts $base/lib/perrito_guau_guau --single-version-externally-managed install_data
+[13.567s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/perrito_guau_guau' for CMake module files
+[13.572s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/perrito_guau_guau' for CMake config files
+[13.580s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/perrito_guau_guau/lib'
+[13.581s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/perrito_guau_guau/bin'
+[13.582s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/perrito_guau_guau/lib/pkgconfig/perrito_guau_guau.pc'
+[13.584s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages'
+[13.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('perrito_guau_guau', 'pythonpath')
+[13.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/hook/pythonpath.ps1'
+[13.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/hook/pythonpath.dsv'
+[13.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/hook/pythonpath.sh'
+[13.599s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/perrito_guau_guau/bin'
+[13.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perrito_guau_guau)
+[13.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/package.ps1'
+[13.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/package.dsv'
+[13.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/package.sh'
+[13.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/package.bash'
+[13.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau/package.zsh'
+[13.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dae/ros2_ws/install/perrito_guau_guau/share/colcon-core/packages/perrito_guau_guau)
+[13.641s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/teleop_esp32' for CMake module files
+[13.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dae/ros2_ws/src/teleop_esp32' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/teleop_esp32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_esp32 build --build-base /home/dae/ros2_ws/build/teleop_esp32/build install --record /home/dae/ros2_ws/build/teleop_esp32/install.log --install-scripts $base/lib/teleop_esp32 --single-version-externally-managed install_data
+[13.652s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/teleop_esp32' for CMake config files
+[13.658s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/teleop_esp32/lib'
+[13.659s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/teleop_esp32/bin'
+[13.660s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/teleop_esp32/lib/pkgconfig/teleop_esp32.pc'
+[13.661s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages'
+[13.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_esp32', 'pythonpath')
+[13.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/hook/pythonpath.ps1'
+[13.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/hook/pythonpath.dsv'
+[13.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/hook/pythonpath.sh'
+[13.679s] Level 1:colcon.colcon_core.environment:checking '/home/dae/ros2_ws/install/teleop_esp32/bin'
+[13.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_esp32)
+[13.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/package.ps1'
+[13.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/package.dsv'
+[13.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/package.sh'
+[13.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/package.bash'
+[13.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32/package.zsh'
+[13.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dae/ros2_ws/install/teleop_esp32/share/colcon-core/packages/teleop_esp32)
+[13.711s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.717s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.778s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.812s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dae/ros2_ws/install/local_setup.ps1'
+[13.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dae/ros2_ws/install/_local_setup_util_ps1.py'
+[13.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dae/ros2_ws/install/setup.ps1'
+[13.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dae/ros2_ws/install/local_setup.sh'
+[13.852s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dae/ros2_ws/install/_local_setup_util_sh.py'
+[13.856s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dae/ros2_ws/install/setup.sh'
+[13.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dae/ros2_ws/install/local_setup.bash'
+[13.869s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dae/ros2_ws/install/setup.bash'
+[13.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dae/ros2_ws/install/local_setup.zsh'
+[13.881s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dae/ros2_ws/install/setup.zsh'

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing perrito_guau_guau.egg-info/PKG-INFO
+writing dependency_links to perrito_guau_guau.egg-info/dependency_links.txt
+writing entry points to perrito_guau_guau.egg-info/entry_points.txt
+writing requirements to perrito_guau_guau.egg-info/requires.txt
+writing top-level names to perrito_guau_guau.egg-info/top_level.txt
+reading manifest file 'perrito_guau_guau.egg-info/SOURCES.txt'
+writing manifest file 'perrito_guau_guau.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/site.py
+Creating /home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages/perrito-guau-guau.egg-link (link to .)
+Installing vayena_node script to /home/dae/ros2_ws/install/perrito_guau_guau/lib/perrito_guau_guau
+
+Installed /home/dae/ros2_ws/build/perrito_guau_guau
+running symlink_data
+symbolically linking /home/dae/ros2_ws/build/perrito_guau_guau/resource/perrito_guau_guau -> /home/dae/ros2_ws/install/perrito_guau_guau/share/ament_index/resource_index/packages
+symbolically linking /home/dae/ros2_ws/build/perrito_guau_guau/package.xml -> /home/dae/ros2_ws/install/perrito_guau_guau/share/perrito_guau_guau

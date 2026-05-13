@@ -1,0 +1,21 @@
+[10.480s] Invoking command in '/home/dae/ros2_ws/build/teleop_esp32': PYTHONPATH=/home/dae/ros2_ws/build/teleop_esp32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dae/ros2_ws/build/teleop_esp32/build --no-deps symlink_data --force
+[12.669s] running develop
+[14.632s] running egg_info
+[14.634s] writing teleop_esp32.egg-info/PKG-INFO
+[14.655s] writing dependency_links to teleop_esp32.egg-info/dependency_links.txt
+[14.658s] writing entry points to teleop_esp32.egg-info/entry_points.txt
+[14.661s] writing requirements to teleop_esp32.egg-info/requires.txt
+[14.663s] writing top-level names to teleop_esp32.egg-info/top_level.txt
+[15.415s] reading manifest file 'teleop_esp32.egg-info/SOURCES.txt'
+[15.446s] writing manifest file 'teleop_esp32.egg-info/SOURCES.txt'
+[15.952s] running build_ext
+[15.968s] Creating /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/site.py
+[15.988s] Creating /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop-esp32.egg-link (link to .)
+[15.996s] Installing keyboard_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32
+[15.997s] Installing serial_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32
+[16.001s] 
+[16.002s] Installed /home/dae/ros2_ws/build/teleop_esp32
+[16.007s] running symlink_data
+[16.009s] symbolically linking /home/dae/ros2_ws/build/teleop_esp32/resource/teleop_esp32 -> /home/dae/ros2_ws/install/teleop_esp32/share/ament_index/resource_index/packages
+[16.010s] symbolically linking /home/dae/ros2_ws/build/teleop_esp32/package.xml -> /home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32
+[16.213s] Invoked command in '/home/dae/ros2_ws/build/teleop_esp32' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/teleop_esp32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dae/ros2_ws/build/teleop_esp32/build --no-deps symlink_data --force
