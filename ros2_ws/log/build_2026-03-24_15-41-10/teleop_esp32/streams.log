@@ -1,0 +1,25 @@
+[5.124s] Invoking command in '/home/dae/ros2_ws/src/teleop_esp32': PYTHONPATH=/home/dae/ros2_ws/build/teleop_esp32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_esp32 build --build-base /home/dae/ros2_ws/build/teleop_esp32/build install --record /home/dae/ros2_ws/build/teleop_esp32/install.log --install-scripts $base/lib/teleop_esp32 --single-version-externally-managed install_data
+[7.351s] running egg_info
+[7.355s] writing ../../build/teleop_esp32/teleop_esp32.egg-info/PKG-INFO
+[7.357s] writing dependency_links to ../../build/teleop_esp32/teleop_esp32.egg-info/dependency_links.txt
+[7.359s] writing entry points to ../../build/teleop_esp32/teleop_esp32.egg-info/entry_points.txt
+[7.361s] writing requirements to ../../build/teleop_esp32/teleop_esp32.egg-info/requires.txt
+[7.363s] writing top-level names to ../../build/teleop_esp32/teleop_esp32.egg-info/top_level.txt
+[7.648s] reading manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'
+[7.656s] writing manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'
+[7.657s] running build
+[7.658s] running build_py
+[7.660s] copying teleop_esp32/keyboard_node.py -> /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32
+[7.662s] running install
+[7.667s] running install_lib
+[7.674s] copying /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32/keyboard_node.py -> /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32
+[7.678s] byte-compiling /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32/keyboard_node.py to keyboard_node.cpython-38.pyc
+[7.690s] running install_data
+[7.691s] running install_egg_info
+[7.702s] removing '/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32-0.0.0-py3.8.egg-info' (and everything under it)
+[7.705s] Copying ../../build/teleop_esp32/teleop_esp32.egg-info to /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32-0.0.0-py3.8.egg-info
+[7.712s] running install_scripts
+[7.827s] Installing keyboard_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32
+[7.828s] Installing serial_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32
+[7.830s] writing list of installed files to '/home/dae/ros2_ws/build/teleop_esp32/install.log'
+[7.948s] Invoked command in '/home/dae/ros2_ws/src/teleop_esp32' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/teleop_esp32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_esp32 build --build-base /home/dae/ros2_ws/build/teleop_esp32/build install --record /home/dae/ros2_ws/build/teleop_esp32/install.log --install-scripts $base/lib/teleop_esp32 --single-version-externally-managed install_data

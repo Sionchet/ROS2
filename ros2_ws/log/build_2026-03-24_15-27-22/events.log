@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001342] (teleop_esp32) JobQueued: {'identifier': 'teleop_esp32', 'dependencies': OrderedDict()}
+[0.003006] (teleop_esp32) JobStarted: {'identifier': 'teleop_esp32'}
+[0.098638] (-) TimerEvent: {}
+[0.200281] (-) TimerEvent: {}
+[0.301441] (-) TimerEvent: {}
+[0.402577] (-) TimerEvent: {}
+[0.503661] (-) TimerEvent: {}
+[0.604739] (-) TimerEvent: {}
+[0.705890] (-) TimerEvent: {}
+[0.807002] (-) TimerEvent: {}
+[0.908123] (-) TimerEvent: {}
+[1.009221] (-) TimerEvent: {}
+[1.110369] (-) TimerEvent: {}
+[1.211454] (-) TimerEvent: {}
+[1.312513] (-) TimerEvent: {}
+[1.413634] (-) TimerEvent: {}
+[1.514919] (-) TimerEvent: {}
+[1.616152] (-) TimerEvent: {}
+[1.717846] (-) TimerEvent: {}
+[1.818993] (-) TimerEvent: {}
+[1.920111] (-) TimerEvent: {}
+[2.027699] (-) TimerEvent: {}
+[2.128934] (-) TimerEvent: {}
+[2.230038] (-) TimerEvent: {}
+[2.331025] (-) TimerEvent: {}
+[2.432058] (-) TimerEvent: {}
+[2.533070] (-) TimerEvent: {}
+[2.634079] (-) TimerEvent: {}
+[2.735169] (-) TimerEvent: {}
+[2.836492] (-) TimerEvent: {}
+[2.937601] (-) TimerEvent: {}
+[3.038804] (-) TimerEvent: {}
+[3.139842] (-) TimerEvent: {}
+[3.240895] (-) TimerEvent: {}
+[3.341989] (-) TimerEvent: {}
+[3.443033] (-) TimerEvent: {}
+[3.544043] (-) TimerEvent: {}
+[3.645176] (-) TimerEvent: {}
+[3.746309] (-) TimerEvent: {}
+[3.847391] (-) TimerEvent: {}
+[3.948480] (-) TimerEvent: {}
+[4.049595] (-) TimerEvent: {}
+[4.150733] (-) TimerEvent: {}
+[4.251824] (-) TimerEvent: {}
+[4.352886] (-) TimerEvent: {}
+[4.454079] (-) TimerEvent: {}
+[4.555180] (-) TimerEvent: {}
+[4.656359] (-) TimerEvent: {}
+[4.757605] (-) TimerEvent: {}
+[4.859015] (-) TimerEvent: {}
+[4.894642] (teleop_esp32) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_esp32', 'build', '--build-base', '/home/dae/ros2_ws/build/teleop_esp32/build', 'install', '--record', '/home/dae/ros2_ws/build/teleop_esp32/install.log', '--install-scripts', '$base/lib/teleop_esp32', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dae/ros2_ws/src/teleop_esp32', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dae', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2397', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dae', 'OLDPWD': '/home/dae/ros2_ws/src/teleop_esp32/teleop_esp32', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dae', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dae', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Dae:@/tmp/.ICE-unix/2333,unix/Dae:/tmp/.ICE-unix/2333', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2e462ebe_1428_4ada_bc97_8e9c8dbb7bef', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/tmp/ssh-UOvwLfTj2sah/agent.2333', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'XDG_VTNR': '2', 'PWD': '/home/dae/ros2_ws/build/teleop_esp32', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/dae/ros2_ws/build/teleop_esp32/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[4.959350] (-) TimerEvent: {}
+[5.060528] (-) TimerEvent: {}
+[5.161519] (-) TimerEvent: {}
+[5.262591] (-) TimerEvent: {}
+[5.363553] (-) TimerEvent: {}
+[5.464621] (-) TimerEvent: {}
+[5.565662] (-) TimerEvent: {}
+[5.666865] (-) TimerEvent: {}
+[5.767899] (-) TimerEvent: {}
+[5.868926] (-) TimerEvent: {}
+[5.970030] (-) TimerEvent: {}
+[6.071109] (-) TimerEvent: {}
+[6.172133] (-) TimerEvent: {}
+[6.273127] (-) TimerEvent: {}
+[6.374233] (-) TimerEvent: {}
+[6.475239] (-) TimerEvent: {}
+[6.576439] (-) TimerEvent: {}
+[6.666474] (teleop_esp32) StdoutLine: {'line': b'running egg_info\n'}
+[6.671385] (teleop_esp32) StdoutLine: {'line': b'writing ../../build/teleop_esp32/teleop_esp32.egg-info/PKG-INFO\n'}
+[6.673448] (teleop_esp32) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_esp32/teleop_esp32.egg-info/dependency_links.txt\n'}
+[6.675876] (teleop_esp32) StdoutLine: {'line': b'writing entry points to ../../build/teleop_esp32/teleop_esp32.egg-info/entry_points.txt\n'}
+[6.678370] (-) TimerEvent: {}
+[6.679978] (teleop_esp32) StdoutLine: {'line': b'writing requirements to ../../build/teleop_esp32/teleop_esp32.egg-info/requires.txt\n'}
+[6.681205] (teleop_esp32) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_esp32/teleop_esp32.egg-info/top_level.txt\n'}
+[6.778638] (-) TimerEvent: {}
+[6.879793] (-) TimerEvent: {}
+[6.962288] (teleop_esp32) StdoutLine: {'line': b"reading manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'\n"}
+[6.969334] (teleop_esp32) StdoutLine: {'line': b"writing manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'\n"}
+[6.971281] (teleop_esp32) StdoutLine: {'line': b'running build\n'}
+[6.972584] (teleop_esp32) StdoutLine: {'line': b'running build_py\n'}
+[6.974148] (teleop_esp32) StdoutLine: {'line': b'copying teleop_esp32/keyboard_node.py -> /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32\n'}
+[6.975751] (teleop_esp32) StdoutLine: {'line': b'running install\n'}
+[6.980081] (-) TimerEvent: {}
+[6.981335] (teleop_esp32) StdoutLine: {'line': b'running install_lib\n'}
+[6.987905] (teleop_esp32) StdoutLine: {'line': b'copying /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32/keyboard_node.py -> /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32\n'}
+[6.992696] (teleop_esp32) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32/keyboard_node.py to keyboard_node.cpython-38.pyc\n'}
+[7.000399] (teleop_esp32) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (keyboard_node.py, line 38)\n'}
+[7.002098] (teleop_esp32) StdoutLine: {'line': b'running install_data\n'}
+[7.003050] (teleop_esp32) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.012571] (teleop_esp32) StdoutLine: {'line': b"removing '/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.014874] (teleop_esp32) StdoutLine: {'line': b'Copying ../../build/teleop_esp32/teleop_esp32.egg-info to /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32-0.0.0-py3.8.egg-info\n'}
+[7.022037] (teleop_esp32) StdoutLine: {'line': b'running install_scripts\n'}
+[7.080323] (-) TimerEvent: {}
+[7.132693] (teleop_esp32) StdoutLine: {'line': b'Installing keyboard_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32\n'}
+[7.134174] (teleop_esp32) StdoutLine: {'line': b'Installing serial_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32\n'}
+[7.136227] (teleop_esp32) StdoutLine: {'line': b"writing list of installed files to '/home/dae/ros2_ws/build/teleop_esp32/install.log'\n"}
+[7.180629] (-) TimerEvent: {}
+[7.247943] (teleop_esp32) CommandEnded: {'returncode': 0}
+[7.281539] (-) TimerEvent: {}
+[7.332920] (teleop_esp32) JobEnded: {'identifier': 'teleop_esp32', 'rc': 0}
+[7.339527] (-) EventReactorShutdown: {}

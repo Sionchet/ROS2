@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/teleop_esp32/teleop_esp32.egg-info
+writing ../../build/teleop_esp32/teleop_esp32.egg-info/PKG-INFO
+writing dependency_links to ../../build/teleop_esp32/teleop_esp32.egg-info/dependency_links.txt
+writing entry points to ../../build/teleop_esp32/teleop_esp32.egg-info/entry_points.txt
+writing requirements to ../../build/teleop_esp32/teleop_esp32.egg-info/requires.txt
+writing top-level names to ../../build/teleop_esp32/teleop_esp32.egg-info/top_level.txt
+writing manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'
+reading manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'
+writing manifest file '../../build/teleop_esp32/teleop_esp32.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dae/ros2_ws/build/teleop_esp32/build
+creating /home/dae/ros2_ws/build/teleop_esp32/build/lib
+creating /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32
+copying teleop_esp32/keyboard_node.py -> /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32
+copying teleop_esp32/__init__.py -> /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32
+copying teleop_esp32/serial_node.py -> /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32
+running install
+running install_lib
+creating /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32
+copying /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32/keyboard_node.py -> /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32
+copying /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32/__init__.py -> /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32
+copying /home/dae/ros2_ws/build/teleop_esp32/build/lib/teleop_esp32/serial_node.py -> /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32
+byte-compiling /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32/keyboard_node.py to keyboard_node.cpython-38.pyc
+byte-compiling /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32/serial_node.py to serial_node.cpython-38.pyc
+running install_data
+creating /home/dae/ros2_ws/install/teleop_esp32/share/ament_index
+creating /home/dae/ros2_ws/install/teleop_esp32/share/ament_index/resource_index
+creating /home/dae/ros2_ws/install/teleop_esp32/share/ament_index/resource_index/packages
+copying resource/teleop_esp32 -> /home/dae/ros2_ws/install/teleop_esp32/share/ament_index/resource_index/packages
+copying package.xml -> /home/dae/ros2_ws/install/teleop_esp32/share/teleop_esp32
+running install_egg_info
+Copying ../../build/teleop_esp32/teleop_esp32.egg-info to /home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages/teleop_esp32-0.0.0-py3.8.egg-info
+running install_scripts
+Installing keyboard_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32
+Installing serial_node script to /home/dae/ros2_ws/install/teleop_esp32/lib/teleop_esp32
+writing list of installed files to '/home/dae/ros2_ws/build/teleop_esp32/install.log'
