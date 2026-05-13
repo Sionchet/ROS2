@@ -1,0 +1,48 @@
+[5.283s] Invoking command in '/home/dae/ros2_ws/src/mobile_robot': PYTHONPATH=/home/dae/ros2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/dae/ros2_ws/build/mobile_robot/build install --record /home/dae/ros2_ws/build/mobile_robot/install.log --single-version-externally-managed install_data
+[7.176s] running egg_info
+[7.179s] creating ../../build/mobile_robot/mobile_robot.egg-info
+[7.180s] writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+[7.182s] writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+[7.184s] writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt
+[7.185s] writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+[7.186s] writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+[7.194s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[7.476s] reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[7.482s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[7.483s] running build
+[7.486s] running build_py
+[7.488s] creating /home/dae/ros2_ws/build/mobile_robot/build
+[7.489s] creating /home/dae/ros2_ws/build/mobile_robot/build/lib
+[7.490s] creating /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot
+[7.491s] copying mobile_robot/joy_velocity_publisher.py -> /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot
+[7.492s] copying mobile_robot/__init__.py -> /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot
+[7.493s] copying mobile_robot/my_robot_controller.py -> /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot
+[7.494s] running install
+[7.495s] running install_lib
+[7.503s] creating /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot
+[7.505s] copying /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot/joy_velocity_publisher.py -> /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot
+[7.507s] copying /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot/__init__.py -> /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot
+[7.508s] copying /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot/my_robot_controller.py -> /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot
+[7.511s] byte-compiling /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot/joy_velocity_publisher.py to joy_velocity_publisher.cpython-38.pyc
+[7.521s] byte-compiling /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot/__init__.py to __init__.cpython-38.pyc
+[7.524s] byte-compiling /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot/my_robot_controller.py to my_robot_controller.cpython-38.pyc
+[7.530s] running install_data
+[7.532s] creating /home/dae/ros2_ws/install/mobile_robot/share/ament_index
+[7.534s] creating /home/dae/ros2_ws/install/mobile_robot/share/ament_index/resource_index
+[7.535s] creating /home/dae/ros2_ws/install/mobile_robot/share/ament_index/resource_index/packages
+[7.537s] copying resource/mobile_robot -> /home/dae/ros2_ws/install/mobile_robot/share/ament_index/resource_index/packages
+[7.539s] copying package.xml -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot
+[7.541s] creating /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/launch
+[7.543s] copying launch/view.launch.py -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/launch
+[7.544s] creating /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/description
+[7.545s] copying description/mobile_robot.xacro -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/description
+[7.546s] creating /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/description/urdf
+[7.547s] copying description/urdf/mobile_robot.urdf -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/description/urdf
+[7.547s] creating /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/config
+[7.548s] copying config/my_config.rviz -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/config
+[7.550s] running install_egg_info
+[7.556s] Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot-0.0.0-py3.8.egg-info
+[7.563s] running install_scripts
+[7.679s] Installing my_robot_controller script to /home/dae/ros2_ws/install/mobile_robot/lib/mobile_robot
+[7.682s] writing list of installed files to '/home/dae/ros2_ws/build/mobile_robot/install.log'
+[7.800s] Invoked command in '/home/dae/ros2_ws/src/mobile_robot' returned '0': PYTHONPATH=/home/dae/ros2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/dae/ros2_ws/build/mobile_robot/build install --record /home/dae/ros2_ws/build/mobile_robot/install.log --single-version-externally-managed install_data

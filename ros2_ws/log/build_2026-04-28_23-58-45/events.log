@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.002577] (minisumo_core) JobQueued: {'identifier': 'minisumo_core', 'dependencies': OrderedDict()}
+[0.004016] (mobile_robot) JobQueued: {'identifier': 'mobile_robot', 'dependencies': OrderedDict()}
+[0.005934] (robiot) JobQueued: {'identifier': 'robiot', 'dependencies': OrderedDict()}
+[0.006868] (minisumo_core) JobStarted: {'identifier': 'minisumo_core'}
+[0.097622] (-) TimerEvent: {}
+[0.175924] (mobile_robot) JobStarted: {'identifier': 'mobile_robot'}
+[0.197884] (-) TimerEvent: {}
+[0.267656] (robiot) JobStarted: {'identifier': 'robiot'}
+[0.300900] (-) TimerEvent: {}
+[0.403615] (-) TimerEvent: {}
+[0.505290] (-) TimerEvent: {}
+[0.606511] (-) TimerEvent: {}
+[0.707649] (-) TimerEvent: {}
+[0.808737] (-) TimerEvent: {}
+[0.909908] (-) TimerEvent: {}
+[1.011069] (-) TimerEvent: {}
+[1.112191] (-) TimerEvent: {}
+[1.213304] (-) TimerEvent: {}
+[1.314518] (-) TimerEvent: {}
+[1.415638] (-) TimerEvent: {}
+[1.516741] (-) TimerEvent: {}
+[1.617952] (-) TimerEvent: {}
+[1.719108] (-) TimerEvent: {}
+[1.820252] (-) TimerEvent: {}
+[1.921388] (-) TimerEvent: {}
+[2.022492] (-) TimerEvent: {}
+[2.124137] (-) TimerEvent: {}
+[2.225983] (-) TimerEvent: {}
+[2.327834] (-) TimerEvent: {}
+[2.428954] (-) TimerEvent: {}
+[2.530145] (-) TimerEvent: {}
+[2.631450] (-) TimerEvent: {}
+[2.733259] (-) TimerEvent: {}
+[2.834466] (-) TimerEvent: {}
+[2.935575] (-) TimerEvent: {}
+[3.036696] (-) TimerEvent: {}
+[3.137905] (-) TimerEvent: {}
+[3.239082] (-) TimerEvent: {}
+[3.340223] (-) TimerEvent: {}
+[3.441359] (-) TimerEvent: {}
+[3.542517] (-) TimerEvent: {}
+[3.643680] (-) TimerEvent: {}
+[3.744784] (-) TimerEvent: {}
+[3.846158] (-) TimerEvent: {}
+[3.947758] (-) TimerEvent: {}
+[4.049289] (-) TimerEvent: {}
+[4.150718] (-) TimerEvent: {}
+[4.251871] (-) TimerEvent: {}
+[4.353228] (-) TimerEvent: {}
+[4.454604] (-) TimerEvent: {}
+[4.556288] (-) TimerEvent: {}
+[4.657638] (-) TimerEvent: {}
+[4.759580] (-) TimerEvent: {}
+[4.860901] (-) TimerEvent: {}
+[4.962325] (-) TimerEvent: {}
+[5.063676] (-) TimerEvent: {}
+[5.165116] (-) TimerEvent: {}
+[5.267140] (-) TimerEvent: {}
+[5.368883] (-) TimerEvent: {}
+[5.470426] (-) TimerEvent: {}
+[5.571797] (-) TimerEvent: {}
+[5.673235] (-) TimerEvent: {}
+[5.774643] (-) TimerEvent: {}
+[5.875959] (-) TimerEvent: {}
+[5.977329] (-) TimerEvent: {}
+[6.078931] (-) TimerEvent: {}
+[6.180287] (-) TimerEvent: {}
+[6.281606] (-) TimerEvent: {}
+[6.383056] (-) TimerEvent: {}
+[6.484181] (-) TimerEvent: {}
+[6.585348] (-) TimerEvent: {}
+[6.686818] (-) TimerEvent: {}
+[6.789389] (-) TimerEvent: {}
+[6.892058] (-) TimerEvent: {}
+[6.993976] (-) TimerEvent: {}
+[7.095889] (-) TimerEvent: {}
+[7.197482] (-) TimerEvent: {}
+[7.298973] (-) TimerEvent: {}
+[7.400522] (-) TimerEvent: {}
+[7.501963] (-) TimerEvent: {}
+[7.603770] (-) TimerEvent: {}
+[7.705910] (-) TimerEvent: {}
+[7.807894] (-) TimerEvent: {}
+[7.909881] (-) TimerEvent: {}
+[8.011143] (-) TimerEvent: {}
+[8.112407] (-) TimerEvent: {}
+[8.215309] (-) TimerEvent: {}
+[8.316775] (-) TimerEvent: {}
+[8.418132] (-) TimerEvent: {}
+[8.519440] (-) TimerEvent: {}
+[8.621320] (-) TimerEvent: {}
+[8.723387] (-) TimerEvent: {}
+[8.825605] (-) TimerEvent: {}
+[8.927243] (-) TimerEvent: {}
+[9.028738] (-) TimerEvent: {}
+[9.130208] (-) TimerEvent: {}
+[9.231703] (-) TimerEvent: {}
+[9.333237] (-) TimerEvent: {}
+[9.434761] (-) TimerEvent: {}
+[9.536429] (-) TimerEvent: {}
+[9.638163] (-) TimerEvent: {}
+[9.739454] (-) TimerEvent: {}
+[9.841302] (-) TimerEvent: {}
+[9.942729] (-) TimerEvent: {}
+[10.044213] (-) TimerEvent: {}
+[10.146487] (-) TimerEvent: {}
+[10.247895] (-) TimerEvent: {}
+[10.349178] (-) TimerEvent: {}
+[10.450618] (-) TimerEvent: {}
+[10.552137] (-) TimerEvent: {}
+[10.653407] (-) TimerEvent: {}
+[10.754797] (-) TimerEvent: {}
+[10.856209] (-) TimerEvent: {}
+[10.957608] (-) TimerEvent: {}
+[11.059335] (-) TimerEvent: {}
+[11.161173] (-) TimerEvent: {}
+[11.262282] (-) TimerEvent: {}
+[11.363675] (-) TimerEvent: {}
+[11.465167] (-) TimerEvent: {}
+[11.567277] (-) TimerEvent: {}
+[11.669220] (-) TimerEvent: {}
+[11.771316] (-) TimerEvent: {}
+[11.872306] (-) TimerEvent: {}
+[11.973636] (-) TimerEvent: {}
+[12.075644] (-) TimerEvent: {}
+[12.138186] (minisumo_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/minisumo_core', 'build', '--build-base', '/home/dae/ros2_ws/build/minisumo_core/build', 'install', '--record', '/home/dae/ros2_ws/build/minisumo_core/install.log', '--install-scripts', '$base/lib/minisumo_core', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dae/ros2_ws/src/minisumo_core', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dae', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2445', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dae', 'OLDPWD': '/home/dae', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dae', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dae', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dae/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Dae:@/tmp/.ICE-unix/2375,unix/Dae:/tmp/.ICE-unix/2375', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/49e611d5_200f_4851_969f_8b292e56510b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.66', 'SSH_AUTH_SOCK': '/tmp/ssh-oOoClRIu42cG/agent.2375', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'XDG_VTNR': '2', 'PWD': '/home/dae/ros2_ws/build/minisumo_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/dae/ros2_ws/build/minisumo_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[12.177442] (-) TimerEvent: {}
+[12.206873] (robiot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robiot', 'build', '--build-base', '/home/dae/ros2_ws/build/robiot/build', 'install', '--record', '/home/dae/ros2_ws/build/robiot/install.log', '--install-scripts', '$base/lib/robiot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dae/ros2_ws/src/robiot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dae', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2445', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dae', 'OLDPWD': '/home/dae', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dae', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dae', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dae/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Dae:@/tmp/.ICE-unix/2375,unix/Dae:/tmp/.ICE-unix/2375', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/49e611d5_200f_4851_969f_8b292e56510b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.66', 'SSH_AUTH_SOCK': '/tmp/ssh-oOoClRIu42cG/agent.2375', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'XDG_VTNR': '2', 'PWD': '/home/dae/ros2_ws/build/robiot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/dae/ros2_ws/build/robiot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[12.247728] (mobile_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mobile_robot', 'build', '--build-base', '/home/dae/ros2_ws/build/mobile_robot/build', 'install', '--record', '/home/dae/ros2_ws/build/mobile_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dae/ros2_ws/src/mobile_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dae', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2445', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dae', 'OLDPWD': '/home/dae', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dae', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dae', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dae/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Dae:@/tmp/.ICE-unix/2375,unix/Dae:/tmp/.ICE-unix/2375', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/49e611d5_200f_4851_969f_8b292e56510b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.66', 'SSH_AUTH_SOCK': '/tmp/ssh-oOoClRIu42cG/agent.2375', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'XDG_VTNR': '2', 'PWD': '/home/dae/ros2_ws/build/mobile_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/dae/ros2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[12.277506] (-) TimerEvent: {}
+[12.380043] (-) TimerEvent: {}
+[12.482261] (-) TimerEvent: {}
+[12.584078] (-) TimerEvent: {}
+[12.685499] (-) TimerEvent: {}
+[12.786969] (-) TimerEvent: {}
+[12.888412] (-) TimerEvent: {}
+[12.989881] (-) TimerEvent: {}
+[13.091227] (-) TimerEvent: {}
+[13.192626] (-) TimerEvent: {}
+[13.293999] (-) TimerEvent: {}
+[13.395994] (-) TimerEvent: {}
+[13.497550] (-) TimerEvent: {}
+[13.599013] (-) TimerEvent: {}
+[13.700489] (-) TimerEvent: {}
+[13.801995] (-) TimerEvent: {}
+[13.903451] (-) TimerEvent: {}
+[14.004764] (-) TimerEvent: {}
+[14.106097] (-) TimerEvent: {}
+[14.193285] (robiot) StdoutLine: {'line': b'running egg_info\n'}
+[14.197353] (robiot) StdoutLine: {'line': b'writing ../../build/robiot/robiot.egg-info/PKG-INFO\n'}
+[14.206314] (-) TimerEvent: {}
+[14.307345] (-) TimerEvent: {}
+[14.408355] (-) TimerEvent: {}
+[14.509421] (-) TimerEvent: {}
+[14.611534] (-) TimerEvent: {}
+[14.632615] (robiot) StdoutLine: {'line': b'writing dependency_links to ../../build/robiot/robiot.egg-info/dependency_links.txt\n'}
+[14.636640] (robiot) StdoutLine: {'line': b'writing entry points to ../../build/robiot/robiot.egg-info/entry_points.txt\n'}
+[14.643598] (robiot) StdoutLine: {'line': b'writing requirements to ../../build/robiot/robiot.egg-info/requires.txt\n'}
+[14.646509] (robiot) StdoutLine: {'line': b'writing top-level names to ../../build/robiot/robiot.egg-info/top_level.txt\n'}
+[14.711812] (-) TimerEvent: {}
+[14.813064] (-) TimerEvent: {}
+[14.866430] (mobile_robot) StdoutLine: {'line': b'running egg_info\n'}
+[14.872125] (mobile_robot) StdoutLine: {'line': b'writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO\n'}
+[14.893828] (mobile_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt\n'}
+[14.896001] (mobile_robot) StdoutLine: {'line': b'writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt\n'}
+[14.898555] (mobile_robot) StdoutLine: {'line': b'writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt\n'}
+[14.900457] (mobile_robot) StdoutLine: {'line': b'writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt\n'}
+[14.913390] (-) TimerEvent: {}
+[14.922778] (minisumo_core) StdoutLine: {'line': b'running egg_info\n'}
+[14.928668] (minisumo_core) StdoutLine: {'line': b'writing ../../build/minisumo_core/minisumo_core.egg-info/PKG-INFO\n'}
+[14.948110] (minisumo_core) StdoutLine: {'line': b'writing dependency_links to ../../build/minisumo_core/minisumo_core.egg-info/dependency_links.txt\n'}
+[14.952317] (minisumo_core) StdoutLine: {'line': b'writing entry points to ../../build/minisumo_core/minisumo_core.egg-info/entry_points.txt\n'}
+[14.956413] (minisumo_core) StdoutLine: {'line': b'writing requirements to ../../build/minisumo_core/minisumo_core.egg-info/requires.txt\n'}
+[14.959587] (minisumo_core) StdoutLine: {'line': b'writing top-level names to ../../build/minisumo_core/minisumo_core.egg-info/top_level.txt\n'}
+[15.013813] (-) TimerEvent: {}
+[15.115757] (-) TimerEvent: {}
+[15.157378] (robiot) StdoutLine: {'line': b"reading manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'\n"}
+[15.177657] (robiot) StdoutLine: {'line': b"writing manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'\n"}
+[15.179945] (robiot) StdoutLine: {'line': b'running build\n'}
+[15.181322] (robiot) StdoutLine: {'line': b'running build_py\n'}
+[15.183246] (robiot) StdoutLine: {'line': b'running install\n'}
+[15.189180] (robiot) StdoutLine: {'line': b'running install_lib\n'}
+[15.203482] (robiot) StdoutLine: {'line': b'running install_data\n'}
+[15.208451] (robiot) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.216153] (-) TimerEvent: {}
+[15.224908] (robiot) StdoutLine: {'line': b"removing '/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.229150] (robiot) StdoutLine: {'line': b'Copying ../../build/robiot/robiot.egg-info to /home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info\n'}
+[15.234360] (mobile_robot) StdoutLine: {'line': b"reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'\n"}
+[15.254218] (mobile_robot) StdoutLine: {'line': b"writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'\n"}
+[15.256478] (mobile_robot) StdoutLine: {'line': b'running build\n'}
+[15.257361] (mobile_robot) StdoutLine: {'line': b'running build_py\n'}
+[15.272354] (robiot) StdoutLine: {'line': b'running install_scripts\n'}
+[15.306180] (mobile_robot) StdoutLine: {'line': b'running install\n'}
+[15.315751] (mobile_robot) StdoutLine: {'line': b'running install_lib\n'}
+[15.317082] (-) TimerEvent: {}
+[15.333560] (mobile_robot) StdoutLine: {'line': b'running install_data\n'}
+[15.341132] (mobile_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.359436] (mobile_robot) StdoutLine: {'line': b"removing '/home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.363731] (mobile_robot) StdoutLine: {'line': b'Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot-0.0.0-py3.8.egg-info\n'}
+[15.390829] (mobile_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[15.404272] (robiot) StdoutLine: {'line': b"writing list of installed files to '/home/dae/ros2_ws/build/robiot/install.log'\n"}
+[15.417449] (-) TimerEvent: {}
+[15.433910] (minisumo_core) StdoutLine: {'line': b"reading manifest file '../../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'\n"}
+[15.465945] (minisumo_core) StdoutLine: {'line': b"writing manifest file '../../build/minisumo_core/minisumo_core.egg-info/SOURCES.txt'\n"}
+[15.468309] (minisumo_core) StdoutLine: {'line': b'running build\n'}
+[15.470037] (minisumo_core) StdoutLine: {'line': b'running build_py\n'}
+[15.475412] (minisumo_core) StdoutLine: {'line': b'running install\n'}
+[15.484591] (minisumo_core) StdoutLine: {'line': b'running install_lib\n'}
+[15.517811] (-) TimerEvent: {}
+[15.521854] (minisumo_core) StdoutLine: {'line': b'running install_data\n'}
+[15.525047] (minisumo_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.537969] (robiot) CommandEnded: {'returncode': 0}
+[15.542841] (minisumo_core) StdoutLine: {'line': b"removing '/home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages/minisumo_core-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.546800] (minisumo_core) StdoutLine: {'line': b'Copying ../../build/minisumo_core/minisumo_core.egg-info to /home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages/minisumo_core-0.0.0-py3.8.egg-info\n'}
+[15.563089] (mobile_robot) StdoutLine: {'line': b'Installing my_robot_controller script to /home/dae/ros2_ws/install/mobile_robot/lib/mobile_robot\n'}
+[15.572725] (minisumo_core) StdoutLine: {'line': b'running install_scripts\n'}
+[15.595542] (mobile_robot) StdoutLine: {'line': b"writing list of installed files to '/home/dae/ros2_ws/build/mobile_robot/install.log'\n"}
+[15.617945] (-) TimerEvent: {}
+[15.719214] (-) TimerEvent: {}
+[15.725266] (minisumo_core) StdoutLine: {'line': b'Installing logger_csv script to /home/dae/ros2_ws/install/minisumo_core/lib/minisumo_core\n'}
+[15.740099] (minisumo_core) StdoutLine: {'line': b'Installing odometria script to /home/dae/ros2_ws/install/minisumo_core/lib/minisumo_core\n'}
+[15.742172] (minisumo_core) StdoutLine: {'line': b'Installing teleop script to /home/dae/ros2_ws/install/minisumo_core/lib/minisumo_core\n'}
+[15.744983] (minisumo_core) StdoutLine: {'line': b"writing list of installed files to '/home/dae/ros2_ws/build/minisumo_core/install.log'\n"}
+[15.821635] (-) TimerEvent: {}
+[15.855339] (robiot) JobEnded: {'identifier': 'robiot', 'rc': 0}
+[15.865112] (mobile_robot) CommandEnded: {'returncode': 0}
+[15.924182] (-) TimerEvent: {}
+[15.950391] (mobile_robot) JobEnded: {'identifier': 'mobile_robot', 'rc': 0}
+[15.968115] (minisumo_core) CommandEnded: {'returncode': 0}
+[16.024432] (-) TimerEvent: {}
+[16.037858] (minisumo_core) JobEnded: {'identifier': 'minisumo_core', 'rc': 0}
+[16.047632] (-) EventReactorShutdown: {}

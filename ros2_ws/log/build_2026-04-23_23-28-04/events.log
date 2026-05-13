@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.002138] (-) JobUnselected: {'identifier': 'minisumo_core'}
+[0.003901] (-) JobUnselected: {'identifier': 'robiot'}
+[0.007705] (mobile_robot) JobQueued: {'identifier': 'mobile_robot', 'dependencies': OrderedDict()}
+[0.008256] (mobile_robot) JobStarted: {'identifier': 'mobile_robot'}
+[0.098440] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.301154] (-) TimerEvent: {}
+[0.402188] (-) TimerEvent: {}
+[0.503254] (-) TimerEvent: {}
+[0.604712] (-) TimerEvent: {}
+[0.705808] (-) TimerEvent: {}
+[0.806847] (-) TimerEvent: {}
+[0.907875] (-) TimerEvent: {}
+[1.008900] (-) TimerEvent: {}
+[1.110036] (-) TimerEvent: {}
+[1.211120] (-) TimerEvent: {}
+[1.312323] (-) TimerEvent: {}
+[1.413343] (-) TimerEvent: {}
+[1.514329] (-) TimerEvent: {}
+[1.615423] (-) TimerEvent: {}
+[1.716523] (-) TimerEvent: {}
+[1.817864] (-) TimerEvent: {}
+[1.919114] (-) TimerEvent: {}
+[2.021501] (-) TimerEvent: {}
+[2.124725] (-) TimerEvent: {}
+[2.226516] (-) TimerEvent: {}
+[2.327707] (-) TimerEvent: {}
+[2.429303] (-) TimerEvent: {}
+[2.530298] (-) TimerEvent: {}
+[2.631317] (-) TimerEvent: {}
+[2.732351] (-) TimerEvent: {}
+[2.833411] (-) TimerEvent: {}
+[2.934390] (-) TimerEvent: {}
+[3.035394] (-) TimerEvent: {}
+[3.136399] (-) TimerEvent: {}
+[3.237486] (-) TimerEvent: {}
+[3.338483] (-) TimerEvent: {}
+[3.439476] (-) TimerEvent: {}
+[3.540494] (-) TimerEvent: {}
+[3.641666] (-) TimerEvent: {}
+[3.989771] (-) TimerEvent: {}
+[4.091403] (-) TimerEvent: {}
+[4.192619] (-) TimerEvent: {}
+[4.293920] (-) TimerEvent: {}
+[4.395336] (-) TimerEvent: {}
+[4.496484] (-) TimerEvent: {}
+[4.598179] (-) TimerEvent: {}
+[4.699340] (-) TimerEvent: {}
+[4.800564] (-) TimerEvent: {}
+[4.901823] (-) TimerEvent: {}
+[5.003007] (-) TimerEvent: {}
+[5.104223] (-) TimerEvent: {}
+[5.205500] (-) TimerEvent: {}
+[5.282602] (mobile_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mobile_robot', 'build', '--build-base', '/home/dae/ros2_ws/build/mobile_robot/build', 'install', '--record', '/home/dae/ros2_ws/build/mobile_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dae/ros2_ws/src/mobile_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dae', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2516', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dae', 'OLDPWD': '/home/dae/ros2_ws/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dae/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dae', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dae', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/dae/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Dae:@/tmp/.ICE-unix/2449,unix/Dae:/tmp/.ICE-unix/2449', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1b1efbfa_8d90_43d6_b7ed_5933628cbec4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/tmp/ssh-zZeBpReWhoby/agent.2449', 'AMENT_PREFIX_PATH': '/home/dae/ros2_ws/install/teleop_esp32:/home/dae/ros2_ws/install/robiot:/home/dae/ros2_ws/install/perrito_guau_guau:/home/dae/ros2_ws/install/minisumo_core:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'XDG_VTNR': '2', 'PWD': '/home/dae/ros2_ws/build/mobile_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xfce:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/dae/ros2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages:/home/dae/ros2_ws/build/teleop_esp32:/home/dae/ros2_ws/install/teleop_esp32/lib/python3.8/site-packages:/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages:/home/dae/ros2_ws/build/perrito_guau_guau:/home/dae/ros2_ws/install/perrito_guau_guau/lib/python3.8/site-packages:/home/dae/ros2_ws/install/minisumo_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.306558] (-) TimerEvent: {}
+[5.408424] (-) TimerEvent: {}
+[5.509452] (-) TimerEvent: {}
+[5.610478] (-) TimerEvent: {}
+[5.711727] (-) TimerEvent: {}
+[5.812710] (-) TimerEvent: {}
+[5.913810] (-) TimerEvent: {}
+[6.014811] (-) TimerEvent: {}
+[6.115766] (-) TimerEvent: {}
+[6.216769] (-) TimerEvent: {}
+[6.317874] (-) TimerEvent: {}
+[6.418864] (-) TimerEvent: {}
+[6.519817] (-) TimerEvent: {}
+[6.620836] (-) TimerEvent: {}
+[6.721945] (-) TimerEvent: {}
+[6.822949] (-) TimerEvent: {}
+[6.923985] (-) TimerEvent: {}
+[7.025039] (-) TimerEvent: {}
+[7.126186] (-) TimerEvent: {}
+[7.183179] (mobile_robot) StdoutLine: {'line': b'running egg_info\n'}
+[7.186855] (mobile_robot) StdoutLine: {'line': b'creating ../../build/mobile_robot/mobile_robot.egg-info\n'}
+[7.188218] (mobile_robot) StdoutLine: {'line': b'writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO\n'}
+[7.189832] (mobile_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt\n'}
+[7.191096] (mobile_robot) StdoutLine: {'line': b'writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt\n'}
+[7.192551] (mobile_robot) StdoutLine: {'line': b'writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt\n'}
+[7.193600] (mobile_robot) StdoutLine: {'line': b'writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt\n'}
+[7.201538] (mobile_robot) StdoutLine: {'line': b"writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'\n"}
+[7.226448] (-) TimerEvent: {}
+[7.327798] (-) TimerEvent: {}
+[7.428872] (-) TimerEvent: {}
+[7.483852] (mobile_robot) StdoutLine: {'line': b"reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'\n"}
+[7.489492] (mobile_robot) StdoutLine: {'line': b"writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'\n"}
+[7.490986] (mobile_robot) StdoutLine: {'line': b'running build\n'}
+[7.492289] (mobile_robot) StdoutLine: {'line': b'running build_py\n'}
+[7.495577] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/build/mobile_robot/build\n'}
+[7.496757] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/build/mobile_robot/build/lib\n'}
+[7.498036] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot\n'}
+[7.498894] (mobile_robot) StdoutLine: {'line': b'copying mobile_robot/joy_velocity_publisher.py -> /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot\n'}
+[7.499766] (mobile_robot) StdoutLine: {'line': b'copying mobile_robot/__init__.py -> /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot\n'}
+[7.500638] (mobile_robot) StdoutLine: {'line': b'copying mobile_robot/my_robot_controller.py -> /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot\n'}
+[7.501642] (mobile_robot) StdoutLine: {'line': b'running install\n'}
+[7.502859] (mobile_robot) StdoutLine: {'line': b'running install_lib\n'}
+[7.510128] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot\n'}
+[7.512135] (mobile_robot) StdoutLine: {'line': b'copying /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot/joy_velocity_publisher.py -> /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot\n'}
+[7.513704] (mobile_robot) StdoutLine: {'line': b'copying /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot/__init__.py -> /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot\n'}
+[7.515464] (mobile_robot) StdoutLine: {'line': b'copying /home/dae/ros2_ws/build/mobile_robot/build/lib/mobile_robot/my_robot_controller.py -> /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot\n'}
+[7.518587] (mobile_robot) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot/joy_velocity_publisher.py to joy_velocity_publisher.cpython-38.pyc\n'}
+[7.529092] (mobile_robot) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot/__init__.py to __init__.cpython-38.pyc\n'}
+[7.530219] (-) TimerEvent: {}
+[7.531404] (mobile_robot) StdoutLine: {'line': b'byte-compiling /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot/my_robot_controller.py to my_robot_controller.cpython-38.pyc\n'}
+[7.537372] (mobile_robot) StdoutLine: {'line': b'running install_data\n'}
+[7.539170] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/install/mobile_robot/share/ament_index\n'}
+[7.540827] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/install/mobile_robot/share/ament_index/resource_index\n'}
+[7.542544] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/install/mobile_robot/share/ament_index/resource_index/packages\n'}
+[7.544122] (mobile_robot) StdoutLine: {'line': b'copying resource/mobile_robot -> /home/dae/ros2_ws/install/mobile_robot/share/ament_index/resource_index/packages\n'}
+[7.546045] (mobile_robot) StdoutLine: {'line': b'copying package.xml -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot\n'}
+[7.548067] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/launch\n'}
+[7.549758] (mobile_robot) StdoutLine: {'line': b'copying launch/view.launch.py -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/launch\n'}
+[7.551437] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/description\n'}
+[7.552406] (mobile_robot) StdoutLine: {'line': b'copying description/mobile_robot.xacro -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/description\n'}
+[7.553429] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/description/urdf\n'}
+[7.554376] (mobile_robot) StdoutLine: {'line': b'copying description/urdf/mobile_robot.urdf -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/description/urdf\n'}
+[7.555248] (mobile_robot) StdoutLine: {'line': b'creating /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/config\n'}
+[7.556081] (mobile_robot) StdoutLine: {'line': b'copying config/my_config.rviz -> /home/dae/ros2_ws/install/mobile_robot/share/mobile_robot/config\n'}
+[7.556949] (mobile_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.562604] (mobile_robot) StdoutLine: {'line': b'Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/dae/ros2_ws/install/mobile_robot/lib/python3.8/site-packages/mobile_robot-0.0.0-py3.8.egg-info\n'}
+[7.570323] (mobile_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[7.630462] (-) TimerEvent: {}
+[7.687099] (mobile_robot) StdoutLine: {'line': b'Installing my_robot_controller script to /home/dae/ros2_ws/install/mobile_robot/lib/mobile_robot\n'}
+[7.689532] (mobile_robot) StdoutLine: {'line': b"writing list of installed files to '/home/dae/ros2_ws/build/mobile_robot/install.log'\n"}
+[7.730742] (-) TimerEvent: {}
+[7.805688] (mobile_robot) CommandEnded: {'returncode': 0}
+[7.831149] (-) TimerEvent: {}
+[7.900044] (mobile_robot) JobEnded: {'identifier': 'mobile_robot', 'rc': 0}
+[7.905194] (-) EventReactorShutdown: {}
