@@ -1,0 +1,37 @@
+'import warnings' failed; traceback:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/warnings.py", line 538, in <module>
+    _processoptions(sys.warnoptions)
+  File "/usr/lib/python3.8/warnings.py", line 208, in _processoptions
+    _setoption(arg)
+  File "/usr/lib/python3.8/warnings.py", line 224, in _setoption
+    import re
+  File "/usr/lib/python3.8/re.py", line 127, in <module>
+    import functools
+  File "/usr/lib/python3.8/functools.py", line 18, in <module>
+    from collections import namedtuple
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 640, in _compile_bytecode
+KeyboardInterrupt
+running egg_info
+writing ../../build/robiot/robiot.egg-info/PKG-INFO
+writing dependency_links to ../../build/robiot/robiot.egg-info/dependency_links.txt
+writing entry points to ../../build/robiot/robiot.egg-info/entry_points.txt
+writing requirements to ../../build/robiot/robiot.egg-info/requires.txt
+writing top-level names to ../../build/robiot/robiot.egg-info/top_level.txt
+reading manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+writing manifest file '../../build/robiot/robiot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/robiot/robiot.egg-info to /home/dae/ros2_ws/install/robiot/lib/python3.8/site-packages/robiot-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/dae/ros2_ws/build/robiot/install.log'
