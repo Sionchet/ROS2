@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<robot name="colab_robots" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- MARCO GLOBAL -->
+  <link name="world"/>
+
+  <!-- ==================== SCARA ==================== -->
+  <!-- Offset: Origen en 0,0,0. Rotación -90 grados en Z para que +X sea abajo y +Y derecha -->
+  <joint name="scara_world_joint" type="fixed">
+    <parent link="world"/>
+    <child link="scara_base"/>
+    <origin xyz="0 0 0" rpy="0 0 -1.570796"/>
+  </joint>
+  <link name="scara_base"/>
+
+  <!-- SCARA Fila 1: theta1, d1=0.200, a1=0.200, alpha1=0 -->
+  <joint name="scara_q1" type="revolute">
+    <parent link="scara_base"/>
+    <child link="scara_dummy1"/>
+    <origin xyz="0 0 0.200" rpy="0 0 1.57"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="1"/>
+  </joint>
+  <link name="scara_dummy1">
+    <visual><geometry><cylinder length="0.05" radius="0.03"/></geometry></visual>
+  </link>
+  <joint name="scara_fixed1" type="fixed">
+    <parent link="scara_dummy1"/>
+    <child link="scara_link1"/>
+    <origin xyz="0.200 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="scara_link1"/>
+
+  <!-- SCARA Fila 2: theta2, d2=0, a2=0.200, alpha2=pi -->
+  <joint name="scara_q2" type="revolute">
+    <parent link="scara_link1"/>
+    <child link="scara_dummy2"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="1"/>
+  </joint>
+  <link name="scara_dummy2">
+    <visual><geometry><cylinder length="0.05" radius="0.03"/></geometry></visual>
+  </link>
+  <joint name="scara_fixed2" type="fixed">
+    <parent link="scara_dummy2"/>
+    <child link="scara_link2"/>
+    <origin xyz="0.200 0 0" rpy="3.14159 0 0"/>
+  </joint>
+  <link name="scara_link2"/>
+
+  <!-- SCARA Fila 3 (Prismática): d3, theta3=0, a3=0, alpha3=0 -->
+  <joint name="scara_d3" type="prismatic">
+    <parent link="scara_link2"/>
+    <child link="scara_dummy3"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0.0" upper="0.200" effort="10" velocity="1"/>
+  </joint>
+  <link name="scara_dummy3">
+    <visual><geometry><box size="0.04 0.04 0.1"/></geometry></visual>
+  </link>
+  <joint name="scara_fixed3" type="fixed">
+    <parent link="scara_dummy3"/>
+    <child link="scara_link3"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="scara_link3"/>
+
+  <!-- SCARA Fila 4: theta4, d4=0.050, a4=0, alpha4=0 -->
+  <joint name="scara_q4" type="revolute">
+    <parent link="scara_link3"/>
+    <child link="scara_dummy4"/>
+    <origin xyz="0 0 0.050" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="10" velocity="1"/>
+  </joint>
+  <link name="scara_dummy4">
+    <visual><geometry><cylinder length="0.02" radius="0.02"/></geometry></visual>
+  </link>
+  <joint name="scara_fixed4" type="fixed">
+    <parent link="scara_dummy4"/>
+    <child link="scara_link4_EE"/> <!-- Efector Final SCARA -->
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="scara_link4_EE"/>
+
+
+  <!-- ==================== ANTROPOMÓRFICO ==================== -->
+  <!-- Offset: x=0.100, y=0.700. Rotación en Z de -1.89255 rad -->
+  <joint name="antro_world_joint" type="fixed">
+    <parent link="world"/>
+    <child link="antro_base"/>
+    <origin xyz="0.100 0.700 0" rpy="0 0 -1.89255"/>
+  </joint>
+  <link name="antro_base"/>
+
+  <!-- Antro Fila 1: theta1, d1=0.250, a1=0.120, alpha1=pi/2 -->
+  <joint name="antro_q1" type="revolute">
+    <parent link="antro_base"/>
+    <child link="antro_dummy1"/>
+    <origin xyz="0 0 0.250" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10" velocity="1"/>
+  </joint>
+  <link name="antro_dummy1">
+    <visual><geometry><cylinder length="0.06" radius="0.04"/></geometry></visual>
+  </link>
+  <joint name="antro_fixed1" type="fixed">
+    <parent link="antro_dummy1"/>
+    <child link="antro_link1"/>
+    <origin xyz="0.120 0 0" rpy="1.570796 0 0"/>
+  </joint>
+  <link name="antro_link1"/>
+
+  <!-- Antro Fila 2: theta2 + pi/2, d2=0, a2=0.250, alpha2=0 -->
+  <!-- Ojo aquí: Añadimos el pi/2 al 'yaw' del origin para que el slider q2 empiece en 0 matemático -->
+  <joint name="antro_q2" type="revolute">
+    <parent link="antro_link1"/>
+    <child link="antro_dummy2"/>
+    <origin xyz="0 0 0" rpy="0 0 1.570796"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.309" upper="1.309" effort="10" velocity="1"/>
+  </joint>
+  <link name="antro_dummy2">
+    <visual><geometry><cylinder length="0.06" radius="0.04"/></geometry></visual>
+  </link>
+  <joint name="antro_fixed2" type="fixed">
+    <parent link="antro_dummy2"/>
+    <child link="antro_link2"/>
+    <origin xyz="0.250 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="antro_link2"/>
+
+  <!-- Antro Fila 3: theta3, d3=0, a3=0, alpha3=pi/2 -->
+  <joint name="antro_q3" type="revolute">
+    <parent link="antro_link2"/>
+    <child link="antro_dummy3"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.309" upper="1.309" effort="10" velocity="1"/>
+  </joint>
+  <link name="antro_dummy3">
+    <visual><geometry><cylinder length="0.06" radius="0.04"/></geometry></visual>
+  </link>
+  <joint name="antro_fixed3" type="fixed">
+    <parent link="antro_dummy3"/>
+    <child link="antro_link3"/>
+    <origin xyz="0 0 0" rpy="1.570796 0 0"/>
+  </joint>
+  <link name="antro_link3"/>
+
+  <!-- Antro Fila 4: theta4, d4=0.250, a4=0, alpha4=-pi/2 -->
+  <joint name="antro_q4" type="revolute">
+    <parent link="antro_link3"/>
+    <child link="antro_dummy4"/>
+    <origin xyz="0 0 0.250" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-2.356" upper="2.356" effort="10" velocity="1"/>
+  </joint>
+  <link name="antro_dummy4">
+    <visual><geometry><cylinder length="0.04" radius="0.03"/></geometry></visual>
+  </link>
+  <joint name="antro_fixed4" type="fixed">
+    <parent link="antro_dummy4"/>
+    <child link="antro_link4"/>
+    <origin xyz="0 0 0" rpy="-1.570796 0 0"/>
+  </joint>
+  <link name="antro_link4"/>
+
+  <!-- Antro Fila 5: theta5, d5=0, a5=0, alpha5=pi/2 -->
+  <joint name="antro_q5" type="revolute">
+    <parent link="antro_link4"/>
+    <child link="antro_dummy5"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-2.356" upper="2.356" effort="10" velocity="1"/>
+  </joint>
+  <link name="antro_dummy5">
+    <visual><geometry><cylinder length="0.04" radius="0.03"/></geometry></visual>
+  </link>
+  <joint name="antro_fixed5" type="fixed">
+    <parent link="antro_dummy5"/>
+    <child link="antro_link5"/>
+    <origin xyz="0 0 0" rpy="1.570796 0 0"/>
+  </joint>
+  <link name="antro_link5"/>
+
+  <!-- Antro Fila 6: theta6, d6=0.080, a6=0, alpha6=0 -->
+  <joint name="antro_q6" type="revolute">
+    <parent link="antro_link5"/>
+    <child link="antro_dummy6"/>
+    <origin xyz="0 0 0.080" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-2.356" upper="2.356" effort="10" velocity="1"/>
+  </joint>
+  <link name="antro_dummy6">
+    <visual><geometry><cylinder length="0.02" radius="0.02"/></geometry></visual>
+  </link>
+  <joint name="antro_fixed6" type="fixed">
+    <parent link="antro_dummy6"/>
+    <child link="antro_link6_EE"/> <!-- Efector Final Antropomórfico -->
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="antro_link6_EE"/>
+
+</robot>
