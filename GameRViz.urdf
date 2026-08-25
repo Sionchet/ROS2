@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<!-- Inicia el documento XML y define la etiqueta principal del robot -->
+<robot name="robot_sencillo">
+
+  <!-- ========================================== -->
+  <!-- LINK 1: Base o Eslabón Fijo                  -->
+  <!-- ========================================== -->
+  <link name="base_link">
+    <!-- Define la representación visual del link en RViz -->
+    <visual>
+      <!-- Desplaza la geometría respecto al origen del link (x, y, z en metros) -->
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <!-- Define la forma geométrica: un cilindro -->
+      <geometry>
+        <cylinder radius="0.1" length="1.0"/>
+      </geometry>
+      <!-- Define el color y material del link -->
+      <material name="gris">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ========================================== -->
+  <!-- LINK 2: Eslabón Móvil                      -->
+  <!-- ========================================== -->
+  <link name="link_1">
+    <!-- Define la representación visual del link -->
+    <visual>
+      <!-- Desplaza el cilindro para que rote desde su base (en lugar de su centro) -->
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <!-- Define la forma geométrica: otro cilindro más delgado -->
+      <geometry>
+        <cylinder radius="0.05" length="1.0"/>
+      </geometry>
+      <!-- Define el color y material del link -->
+      <material name="azul">
+        <color rgba="0.0 0.0 0.8 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ========================================== -->
+  <!-- JOINT 1: Articulación Revoluta (Giro)      -->
+  <!-- ========================================== -->
+  <joint name="joint_1" type="revolute">
+    <!-- Define el eslabón padre (donde se fija la articulación) -->
+    <parent link="base_link"/>
+    <!-- Define el eslabón hijo (el que se va a mover) -->
+    <child link="link_1"/>
+    <!-- Posición y orientación de la articulación respecto al padre (en la punta superior del base_link) -->
+    <!-- El punto de rotación o traslación de la articulación es el origen absoluto (0,0,0) del Link hijo-->
+    <origin xyz="0 0 1" rpy="0 0 0"/>
+    <!-- Eje de rotación: gira alrededor del eje X (1 en x, 0 en y, 0 en z) -->
+    <axis xyz="0 1 0"/>
+    <!-- Límite inferior del giro en radianes (-90 grados aprox) -->
+    <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!-- ========================================== -->
+  <!-- LINK 2: Eslabón Móvil 3ro                   -->
+  <!-- ========================================== -->
+  <link name="link_2">
+    <!-- Define la representación visual del link -->
+    <visual>
+      <!-- Desplaza el cilindro para que rote desde su base (en lugar de su centro) -->
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <!-- Define la forma geométrica: otro cilindro más delgado -->
+      <geometry>
+        <cylinder radius="0.075" length="1.0"/>
+      </geometry>
+      <!-- Define el color y material del link -->
+      <material name="verde">
+        <color rgba="0.0 0.1 0.3 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ========================================== -->
+  <!-- JOINT 2: Articulación Revoluta (Giro)2     -->
+  <!-- ========================================== -->
+  <joint name="joint_2" type="revolute">
+    <!-- Define el eslabón padre (donde se fija la articulación) -->
+    <parent link="link_1"/>
+    <!-- Define el eslabón hijo (el que se va a mover) -->
+    <child link="link_2"/>
+    <!-- Posición y orientación de la articulación respecto al padre (en la punta superior del base_link) -->
+    <!-- El punto de rotación o traslación de la articulación es el origen absoluto (0,0,0) del Link hijo-->
+    <origin xyz="0 0 1" rpy="0 0 0"/>
+    <!-- Eje de rotación: gira alrededor del eje X (1 en x, 0 en y, 0 en z) -->
+    <axis xyz="0 1 0"/>
+    <!-- Límite inferior del giro en radianes (-90 grados aprox) -->
+    <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!-- ========================================== -->
+  <!-- LINK 4: Eslabón Móvil 4ro                   -->
+  <!-- ========================================== -->
+  <link name="link_3">
+    <!-- Define la representación visual del link -->
+    <visual>
+      <!-- Desplaza el cilindro para que rote desde su base (en lugar de su centro) -->
+      <origin xyz="0 0 0.75" rpy="0 0 0"/>
+      <!-- Define la forma geométrica: otro cilindro más delgado -->
+      <geometry>
+        <box size="0.15 0.15 1.5"/>
+      </geometry>
+      <!-- Define el color y material del link -->
+      <material name="verde">
+        <color rgba="0.0 1.0 0.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ========================================== -->
+  <!-- JOINT 3: Articulación Revoluta (Giro)2     -->
+  <!-- ========================================== -->
+  <joint name="joint_3" type="revolute">
+    <!-- Define el eslabón padre (donde se fija la articulación) -->
+    <parent link="link_2"/>
+    <!-- Define el eslabón hijo (el que se va a mover) -->
+    <child link="link_3"/>
+    <!-- Posición y orientación de la articulación respecto al padre (en la punta superior del base_link) -->
+    <!-- El punto de rotación o traslación de la articulación es el origen absoluto (0,0,0) del Link hijo-->
+    <origin xyz="0 0 1" rpy="0 0 0"/>
+    <!-- Eje de rotación: gira alrededor del eje X (1 en x, 0 en y, 0 en z) -->
+    <axis xyz="0 1 0"/>
+    <!-- Límite inferior del giro en radianes (-90 grados aprox) -->
+    <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!-- ========================================== -->
+  <!-- LINK 5:                                    -->
+  <!-- ========================================== -->
+  <link name="link_4">
+    <!-- Define la representación visual del link -->
+    <visual>
+      <!-- Desplaza el cilindro para que rote desde su base (en lugar de su centro) -->
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <!-- Define la forma geométrica: otro cilindro más delgado -->
+      <geometry>
+        <cylinder radius="0.1" length="1.0"/>
+      </geometry>
+      <!-- Define el color y material del link -->
+      <material name="verde">
+        <color rgba="1.0 0.5 0.2 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ========================================== -->
+  <!-- JOINT 4:                                   -->
+  <!-- ========================================== -->
+  <joint name="joint_4" type="revolute">
+    <!-- Define el eslabón padre (donde se fija la articulación) -->
+    <parent link="link_3"/>
+    <!-- Define el eslabón hijo (el que se va a mover) -->
+    <child link="link_4"/>
+    <!-- Posición y orientación de la articulación respecto al padre (en la punta superior del base_link) -->
+    <!-- El punto de rotación o traslación de la articulación es el origen absoluto (0,0,0) del Link hijo-->
+    <origin xyz="0 0 1.5" rpy="1.57 0 0"/>
+    <!-- Eje de rotación: gira alrededor del eje X (1 en x, 0 en y, 0 en z) -->
+    <axis xyz="0 1 0"/>
+    <!-- Límite inferior del giro en radianes (-90 grados aprox) -->
+    <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!-- ========================================== -->
+  <!-- LINK 5:                                    -->
+  <!-- ========================================== -->
+  <link name="link_5">
+    <!-- Define la representación visual del link -->
+    <visual>
+      <!-- Desplaza el cilindro para que rote desde su base (en lugar de su centro) -->
+      <origin xyz="2 -2 0.5" rpy="0 0 0"/>
+      <!-- Define la forma geométrica: otro cilindro más delgado -->
+      <geometry>
+        <cylinder radius="0.1" length="1.0"/>
+      </geometry>
+      <!-- Define el color y material del link -->
+      <material name="verde">
+        <color rgba="1.0 0.5 0.2 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+</robot>
